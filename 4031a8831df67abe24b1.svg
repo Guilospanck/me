@@ -1,0 +1,813 @@
+var _defs;
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+import * as React from "react";
+
+var SvgFinlandicaV3Latin500 = function SvgFinlandicaV3Latin500(props) {
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg"
+  }, props), _defs || (_defs = /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("font", {
+    id: "finlandica-v3-latin-500_svg__Finlandica",
+    horizAdvX: 526
+  }, /*#__PURE__*/React.createElement("fontFace", {
+    fontFamily: "Finlandica Medium",
+    ascent: 950,
+    descent: -250,
+    alphabetic: 0
+  }), /*#__PURE__*/React.createElement("glyph", {
+    horizAdvX: 276
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "!",
+    horizAdvX: 277,
+    d: "M97 218 75 700h127l-22-482H97ZM82 0v115h114V0H82Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\"",
+    horizAdvX: 405,
+    d: "M66 421v329h90V421H66Zm184 0v329h90V421h-90Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "#",
+    horizAdvX: 750,
+    d: "M107 388v92h139l99 220h114l-98-220h115l99 220h114l-72-156-39-45q-6-7-3-13t13-6h109v-92H107ZM61 0l71 156 40 45q6 7 3 13t-14 6H53v92h589v-92H503L404 0H291l98 220H273L174 0H61Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "$",
+    horizAdvX: 536,
+    d: "M229-150V45h98v-195h-98Zm0 817v183h98V667h-98Zm26-677q-62 0-115 17T45 56l37 92q38-28 80-42t89-15q62 0 95 30t33 81q0 42-24 72t-78 37l-43 5q-55 6-97 29t-65 64-23 97q0 60 28 106t81 73 130 26q52 0 99-14t84-39l-32-89q-36 23-74 32t-75 10q-66 0-99-28t-33-70q0-44 24-66t66-27l45-5q94-11 144-66t50-142q0-65-27-114t-79-76-126-27Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "%",
+    horizAdvX: 700,
+    d: "m91 0 266 454 117 246h134L344 251 225 0H91Zm80 360q-54 0-84 26t-42 66-13 84q0 43 12 82t43 65 84 26q54 0 84-25t42-65 13-83q0-46-12-86t-43-65-84-25Zm0 86q35 0 45 26t10 61q0 38-10 64t-45 26q-35 0-45-26t-10-64q0-39 10-63t45-24ZM528-10q-53 0-83 26t-42 66-13 84q0 43 12 82t43 65 83 26q55 0 85-25t42-65 13-83q0-46-12-86t-43-65-85-25Zm0 86q36 0 46 26t10 61q0 38-10 64t-46 26q-34 0-44-26t-10-64q0-39 10-63t44-24Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "&",
+    horizAdvX: 679,
+    d: "M341-12q-57 0-107 11t-89 37-61 64-22 92q0 44 15 74t39 52 51 34q-37 18-65 57T73 510q0 56 22 94t58 62 78 34 81 11q45 0 79-5t65-19 60-35l-35-91q-33 27-74 38t-91 12q-64 0-99-28t-36-79q0-50 28-77t80-28h50v-97h-50q-58 0-88-26t-31-76q0-54 44-82t127-28q41 0 78 7t59 21v184h-70v96h241v-96h-70V56Q534 26 478 8T341-12Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "'",
+    horizAdvX: 222,
+    d: "M66 421v329h90V421H66Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "(",
+    horizAdvX: 439,
+    d: "M312-163q-100 27-149 86T102 80q-6 67-9 135t-3 135q0 67 3 135t9 135q12 97 61 156t149 87l37-93q-71-18-104-60t-38-110q-4-75-6-136t-3-114q0-53 2-114t7-137q5-67 38-109t104-60l-37-93Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: ")",
+    horizAdvX: 439,
+    d: "M126-163 90-70q71 18 104 60t37 109q5 76 7 137t2 114q0 53-2 114t-7 136q-4 68-37 110T90 770l36 93q100-27 150-86t60-157q7-67 10-135t3-135q0-66-3-134T336 80q-10-97-60-156t-150-87Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "*",
+    horizAdvX: 518,
+    d: "m170 359-53 34 96 136H46v57h167l-96 136 53 35 68-103 10-36q5-10 11-10t11 10l11 37 67 102 53-35-96-136h167v-57H305l96-136-53-34-67 101-11 35q-4 10-10 10t-12-10l-11-35-67-101Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "+",
+    horizAdvX: 588,
+    d: "M246 106v196H50v96h196v196h96V398h196v-96H342V106h-96Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: ",",
+    horizAdvX: 290,
+    d: "m-4-198 11 56q65 8 100 45t37 97H75v118h132V21q0-68-27-115t-76-73-108-31Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "-",
+    horizAdvX: 338,
+    d: "M50 212v96h238v-96H50Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: ".",
+    horizAdvX: 278,
+    d: "M82 0v120h113V0H82Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "/",
+    horizAdvX: 485,
+    d: "m30 0 312 700h113L145 0H30Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: 0,
+    horizAdvX: 612,
+    d: "M306-12q-53 0-98 16t-78 50q-22 23-39 56t-27 90-10 150q0 93 9 150t27 90 40 56q33 34 78 50t98 16q53 0 98-16t77-50q23-22 40-55t26-91 10-150q0-93-9-150t-27-90-40-56q-32-34-77-50t-98-16Zm0 101q66 0 103 38t42 101q3 34 4 63t1 59q0 31-1 60t-4 62q-4 64-41 101t-104 38q-67 0-104-37t-41-102q-3-33-4-62t-2-60q0-30 1-59t5-63q3-63 40-101t105-38Zm-48 173v176h96V262h-96Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: 1,
+    horizAdvX: 490,
+    d: "M53 0v97h153v499H46v59l274 57-1-615h149V0H53Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: 2,
+    horizAdvX: 521,
+    d: "M50 0v123q0 84 38 141t122 94l68 28q46 18 69 46t23 74q0 35-17 58t-44 35-64 12q-41 0-82-10t-80-36l-34 89q50 34 99 45t102 11q38 0 78-11t73-35 54-62 21-92q0-81-37-130t-105-78l-70-30q-47-21-69-46t-30-50-7-43v-31h316V0H50Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: 3,
+    horizAdvX: 519,
+    d: "M245-9Q182-9 131 8T32 66l36 92q36-35 78-51t88-16q67 0 99 28t32 80q0 47-29 75t-90 28h-88v96h88q55 0 82 28t27 78q0 50-32 78t-90 29q-38 0-79-10t-75-36l-34 89q47 32 93 44t100 13q37 0 76-11t72-34 55-62 21-94q0-43-14-74t-37-53-50-32q29-10 54-31t42-53 16-75q0-54-20-92t-53-63-73-35-82-11Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: 4,
+    horizAdvX: 548,
+    d: "M371 0v189H32v53l209 458h117L165 283h206v217h107V0H371Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: 5,
+    horizAdvX: 529,
+    d: "M238-9Q178-9 131 7T46 52l35 92q32-30 76-42t78-13q67 0 108 35t40 98q0 58-39 91t-101 34q-32 0-60-10t-57-33l-51 40v356h379v-91H178V428q0-8 5-10t14 1l31 17q9 4 18 4t17 1q67 0 118-27t80-78 29-118q0-69-31-120t-87-79T238-9Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: 6,
+    horizAdvX: 566,
+    d: "M284-12q-74 0-128 29T72 98 42 219q0 36 8 70t29 74 56 98l150 239h129L228 430q-7-10-3-16t15 0l45 24q9 1 16 2t16 1q51 0 98-25t78-74 31-123q0-69-30-121t-84-81-126-29Zm0 99q62 0 98 36t36 96q0 60-36 96t-98 36q-62 0-98-36t-38-96q0-60 36-96t100-36Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: 7,
+    horizAdvX: 558,
+    d: "m89 0 145 303H71v96h209l98 201H51v100h452v-64l-83-176-35-43q-6-7-3-12t12-6h117v-96H343L198 0H89Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: 8,
+    horizAdvX: 573,
+    d: "M289-12q-75 0-130 26T73 86 42 193q0 47 23 87t66 62l34 5q11 1 12 7t-9 10q-52 25-78 65t-26 89q0 57 27 100t77 69 118 25q69 0 120-25t78-70 28-104q0-38-19-72t-51-56l-30-6q-10-1-10-7t9-10q58-24 88-69t31-99q0-62-29-108t-83-72-129-26Zm1 92q62 0 98 30t35 83q0 48-46 81t-125 46q-51-12-77-45t-26-78q1-55 38-86t103-31Zm26 323q43 9 66 38t23 73q-1 51-33 79t-86 29q-54 0-84-27t-31-75q1-47 40-77t105-40Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: 9,
+    horizAdvX: 566,
+    d: "m153 0 185 270q7 10 4 16t-16 0l-45-24-16-2q-8-1-15-1-51 0-99 25t-78 75-31 122q0 70 30 121t85 81 126 29q73 0 127-29t84-80 30-122q0-36-8-70t-28-74-57-98L281 0H153Zm130 349q61 0 98 36t37 96q1 60-36 96t-99 36q-62 0-98-36t-37-96q0-60 36-96t99-36Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: ":",
+    horizAdvX: 278,
+    d: "M92 0v120h113V0H92Zm0 384v120h113V384H92Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: ";",
+    horizAdvX: 290,
+    d: "m-4-198 11 56q65 8 100 45t37 97H75v118h132V21q0-68-27-115t-76-73-108-31Zm86 582v120h113V384H82Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "<",
+    horizAdvX: 540,
+    d: "M490 120 50 299v119l440 182V499L152 368q-7-3-7-8t7-9l338-127V120Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "=",
+    horizAdvX: 548,
+    d: "M50 413v91h448v-91H50Zm0-217v91h448v-91H50Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: ">",
+    horizAdvX: 540,
+    d: "M50 120v104l338 127q8 3 8 8t-8 9L50 499v101l440-182V299L50 120Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "?",
+    horizAdvX: 495,
+    d: "M146 218q-4 18-6 30t-2 24q0 46 22 74t72 50l46 21q24 11 42 30t19 64q0 37-17 58t-46 32-61 10q-33 0-57-5t-45-14-44-23l-33 89q39 25 84 39t98 14q64 0 116-23t82-69 31-112q0-53-19-86t-48-54-60-36l-36-17q-23-10-37-23t-15-42v-31h-86ZM132 0v112h114V0H132Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "@",
+    horizAdvX: 708,
+    d: "M380-120q-74 0-133 21T144-34 79 83 56 257q0 118 35 202t104 129 169 45q90 0 148-33t87-90 29-128V224l41-69-84-49-34 48q-8 11-18 3-24-21-50-35t-70-14q-72 0-114 40t-42 105q0 47 21 79t59 48 87 17h101q-3 40-20 70t-52 47-86 18q-65 0-110-28t-69-88-24-160q0-99 27-160t77-89 114-28q49 0 85 12t74 37l47-78q-48-35-97-52t-111-18Zm48 315q46 0 73 24t27 64v32q0 17-18 12l-48-12h-34q-33 0-51-15t-19-42q0-28 19-45t51-18Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "A",
+    horizAdvX: 583,
+    d: "m30 0 186 700h160L563 0H449L312 544l-8 57q-1 7-7 7t-8-7l-8-57L144 0H30Zm135 177 25 96h213l25-96H165Zm-59 428v95h133l-8-95H106Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "B",
+    horizAdvX: 574,
+    d: "M82 0v700h226q97 0 150-49t54-141q0-53-24-92t-68-60q51-17 79-61t29-104q0-92-55-142T316 0H82Zm104 94h130q52 0 80 26t28 76q0 49-28 78t-80 30H186V94Zm0 303h122q48 0 74 29t26 78q0 48-26 75t-74 27H186V397Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "C",
+    horizAdvX: 503,
+    d: "M310-12q-72 0-126 26T97 92 60 216q-2 29-4 66t-2 68q0 32 2 68t4 66q5 73 36 124t85 77 125 27q46 0 85-15t76-44l-32-89q-29 23-58 34t-65 12q-64 0-100-35t-40-100q-2-35-3-64t-2-61q0-31 1-60t4-65q5-66 40-100t98-34q36 0 66 12t58 34l33-92q-35-28-73-42t-84-15Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "D",
+    horizAdvX: 597,
+    d: "M82 0v700h191q125 0 190-62t74-168q2-27 3-59t2-61q0-29-1-61t-4-59q-8-106-73-168T273 0H82Zm112 95h79q79 0 115 42t42 107q3 32 3 55t1 51v50q0 22-4 56-5 65-41 107t-116 42h-79V95Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "E",
+    horizAdvX: 552,
+    d: "M82 0v700h414V598H186V399h293v-98H186V102h310V0H82Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "F",
+    horizAdvX: 525,
+    d: "M82 0v700h407V598H195V401h272V299H195V0H82Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "G",
+    horizAdvX: 599,
+    d: "M315-11q-115-1-180 57T60 214q-2 29-4 67t-2 69q0 32 1 69t4 67q12 114 81 170t182 56q109 0 183-61l-35-92q-33 28-68 39t-80 12q-73 0-111-35t-44-105q-2-32-3-60t-2-60q0-31 1-59t4-65q5-63 41-98t103-37q25 0 50 3t41 11v194h-76v102h247V299h-69V43q-35-25-80-39T315-11Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "H",
+    horizAdvX: 628,
+    d: "M82 0v700h113V401h237v299h114V0H432v299H195V0H82Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "I",
+    horizAdvX: 431,
+    d: "M50 0v97h109v506H50v97h331v-97H272V97h109V0H50Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "J",
+    horizAdvX: 460,
+    d: "M172-12q-43 0-85 14T10 46l34 92q16-16 36-26t45-16 47-5q45-1 71 22t26 67v422H117v98h264V180q0-91-56-141T172-12Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "K",
+    horizAdvX: 557,
+    d: "M82 0v700h111V399h68l148 301h121L355 358 529 0H409L261 302h-68V0H82Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "L",
+    horizAdvX: 449,
+    d: "M82 0v700h113V102h228V0H82Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "M",
+    horizAdvX: 676,
+    d: "M82 0v700h94l152-288q4-7 10-7t10 7l153 288h93V0H487v391l11 73q2 7-3 9t-11-5L362 251h-51L192 468q-4 8-9 6t-5-10l12-73V0H82Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "N",
+    horizAdvX: 630,
+    d: "M82 0v700h93l263-483q5-7 10-4t5 10l-13 75v402h108V0H448L193 465q-4 8-10 6t-5-10l12-75V0H82Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "O",
+    horizAdvX: 612,
+    d: "M306-12q-53 0-98 16t-78 50q-22 23-39 56t-27 90-10 150q0 93 9 150t27 90 40 56q33 34 78 50t98 16q53 0 98-16t77-50q23-22 40-55t26-91 10-150q0-93-9-150t-27-90-40-56q-32-34-77-50t-98-16Zm0 103q61 0 95 34t38 94q2 38 3 69t2 62q0 32-1 63t-4 68q-4 59-38 93t-95 35q-62 0-96-34t-37-94q-3-37-4-68t-2-63q0-31 1-62t5-69q3-59 37-93t96-35Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "P",
+    horizAdvX: 564,
+    d: "M82 0v700h250q93 0 147-55t55-149q0-91-54-144t-148-53H193V0H82Zm111 394h133q47 0 74 28t27 75q0 52-27 80t-74 29H193V394Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "Q",
+    horizAdvX: 612,
+    d: "M410-117 356-8q-11-2-24-3t-26-1q-53 0-98 16t-78 50q-22 23-39 56t-27 90-10 150q0 93 9 150t27 90 40 56q33 34 78 50t98 16q53 0 98-16t77-50q23-22 40-55t26-91 10-150q0-93-9-150t-27-90-40-56q-7-8-16-14t-18-13l54-103-91-41ZM301 87h10q5 0 10 1 10 2 11 9t-6 13l-40 31-40 86 87 40 69-141q19 16 29 40t12 53q2 38 3 69t2 62q0 32-1 63t-4 68q-4 60-39 94t-98 35q-63 0-98-34t-39-95q-3-37-4-68t-2-63q0-32 1-63t5-69q2-38 18-68t45-46 69-17Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "R",
+    horizAdvX: 578,
+    d: "M82 0v700h241q103 0 160-53t58-150q0-69-34-117t-96-69q-15-4-5-19l31-49L526 0H409L300 299H194V0H82Zm111 394h132q52 0 81 27t30 76q0 52-29 80t-82 29H193V394Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "S",
+    horizAdvX: 510,
+    d: "M245-10q-62 0-115 17T35 56l37 92q38-28 80-42t89-15q62 0 95 30t33 81q0 42-24 72t-78 37l-43 5q-55 6-97 29t-65 64-23 97q0 60 28 106t81 73 130 26q52 0 99-14t84-39l-32-89q-36 23-74 32t-75 10q-66 0-99-28t-33-70q0-44 24-66t66-27l45-5q94-11 144-66t50-142q0-65-27-114t-79-76-126-27Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "T",
+    horizAdvX: 497,
+    d: "M191 0v598H26v102h445V598H305V0H191Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "U",
+    horizAdvX: 607,
+    d: "M303-10q-67 0-118 27t-81 77-29 113v493h114l-1-494q0-51 32-82t83-32q51 0 83 31t32 83v494h114l-2-493q0-64-28-113t-80-76-119-28Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "V",
+    horizAdvX: 546,
+    d: "M191 0 20 700h114l123-534 8-68q1-7 7-7t8 7l7 68 126 534h113L352 0H191Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "W",
+    horizAdvX: 625,
+    d: "M124 0 27 700h100l63-422 1-73q0-10 6-10t9 7l75 302h63l75-302q2-8 8-8t7 11l1 73 63 422h100L501 0H395l-73 285q-2 10-9 10t-10-10L229 0H124Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "X",
+    horizAdvX: 541,
+    d: "m20 0 169 352L20 700h123l107-235 13-55q2-7 7-7t8 7l12 55 107 235h124L351 352 521 0H397L290 239l-12 55q-2 7-7 7t-8-7l-13-55L143 0H20Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "Y",
+    horizAdvX: 492,
+    d: "M190 0v301L0 700h120l107-233 12-56q2-6 7-6t8 6l13 56 106 233h119L302 301V0H190Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "Z",
+    horizAdvX: 519,
+    d: "M41 0v68l270 484 34 41q4 5 3 9t-8 4H148v-76H47v170h431v-68L211 157l-33-41q-5-5-4-9t8-5h296V0H41Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "[",
+    horizAdvX: 395,
+    d: "M90-159V852h215v-89H196V-70h109v-89H90Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\\\\\\\",
+    horizAdvX: 485,
+    d: "M340 0 30 700h113L455 0H340Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "]",
+    horizAdvX: 395,
+    d: "M90-159v89h110v833H90v89h215V-159H90Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "^",
+    horizAdvX: 482,
+    d: "m22 350 153 400h129l156-400H347l-87 257-12 52q-2 8-8 8t-8-8l-10-52-86-257H22Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "_",
+    horizAdvX: 548,
+    d: "M87-250v70h374v-70H87Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "`",
+    horizAdvX: 326,
+    d: "M166 591 50 750h111l115-159H166Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "a",
+    horizAdvX: 497,
+    d: "m372-12-33 47q-8 11-17 2-24-20-51-33t-71-14q-72 0-114 40T44 135q0 46 21 77t58 48 87 17h105v63q0 39-24 61t-74 22q-37 0-68-11t-63-34l-31 87q38 26 79 38t90 13q97 0 143-48t47-122V113l47-69-89-56ZM215 73q46 0 73 24t27 64v33q0 16-18 11l-48-11h-35q-33 0-51-15t-19-42q0-27 19-45t52-19Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "b",
+    horizAdvX: 547,
+    d: "M124-12 34 44l47 68v638h108V475q19 17 50 28t65 12q89 0 133-45t54-124q3-26 4-48t1-45q0-19-1-40t-4-46q-7-81-56-129T296-10q-39 0-68 12t-51 31q-14 10-23-2l-30-43Zm162 93q51 0 73 26t26 62q4 41 4 83t-4 83q-3 37-26 62t-73 26q-48 0-72-21t-25-61V163q0-37 25-59t72-23Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "c",
+    horizAdvX: 448,
+    d: "M264-13q-93 0-145 50T57 162q-6 50-6 90 0 21 1 42t5 47q10 76 62 125t144 50q45 0 80-11t66-35l-30-82q-26 17-52 26t-60 10q-49 0-77-27t-31-67q-3-44-3-79t3-78q3-38 31-66t79-28q30 0 58 8t57 27l28-79q-36-25-71-36t-77-12Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "d",
+    horizAdvX: 541,
+    d: "M239-10q-87 0-132 46T55 159q-2 28-3 50t-1 44q0 23 1 45t3 48q8 78 54 123t134 46q34 0 65-10t50-26v271h108V0H358v20q0 9-5 11t-16-2L282-5q-10-2-19-3t-24-2Zm22 90q47 0 72 23t25 59v181q0 37-24 58t-73 22q-49 0-72-25t-27-62q-4-41-4-83t4-85q3-36 26-62t73-26Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "e",
+    horizAdvX: 494,
+    d: "M274-10q-64 0-110 22T91 74t-34 88q-3 24-4 45t-2 42q0 40 6 89 9 76 60 126t138 50q59 0 97-20t61-53 31-76 9-86l-20-52H99l-1 82h255q0 29-8 55t-29 44-60 17q-48 0-73-29t-28-74q-2-25-3-61t3-82q5-46 35-73t84-27q34 0 66 10t61 30l29-80q-38-26-74-37t-82-12Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "f",
+    horizAdvX: 375,
+    d: "M122 0v413H26v91h96v72q0 50 23 90t69 64 115 23q48 0 88-14t67-39l-39-77q-23 20-49 29t-56 10q-56 0-84-22t-29-62v-74h121v-91H227V0H122Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "g",
+    horizAdvX: 538,
+    d: "M249-207q-34 0-61 4t-51 14-52 25l28 82q22-13 41-20t41-11 53-3q50 0 80 23t30 70v43q0 10-5 12t-14-3L281-5q-11-2-20-3t-26-2q-81 0-127 46T55 159q-2 28-3 50t-1 44q0 23 1 45t3 48q7 78 53 123t135 46q34 0 65-11t50-28v28h108V-23q0-47-23-89t-72-68-122-27Zm12 287q47 0 72 22t25 60v181q0 37-24 58t-73 22q-50 0-72-25t-27-62q-4-42-4-84t4-84q3-37 25-62t74-26Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "h",
+    horizAdvX: 547,
+    d: "M77 0v750h106V479q22 15 54 26t71 11q48 0 86-18t59-54 22-83V0H368v331q0 42-22 65t-67 23q-48 0-72-23t-24-65V0H77Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "i",
+    horizAdvX: 301,
+    d: "M116 0v413H38v91h186V0H116Zm0 591v109h108V591H116Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "j",
+    horizAdvX: 301,
+    d: "m52-222-30 93q43 12 68 45t26 90v407H38v91h186V9q0-53-13-92t-37-67-55-46-67-26Zm64 813v109h107V591H116Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "k",
+    horizAdvX: 495,
+    d: "M77 0v750h107V326h49l113 178h119L325 287 469 0H351L240 233h-56V0H77Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "l",
+    horizAdvX: 287,
+    d: "M193 0q-52 0-84 31t-32 82v637h106V123q0-13 7-21t20-8h46V0h-63Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "m",
+    horizAdvX: 837,
+    d: "M77 0v504h105v-39q17 18 51 34t79 17q44 0 75-13t58-40q17 17 40 29t51 18 56 6q53 0 92-19t60-55 21-86V0H657v338q0 39-21 60t-72 21q-48 0-68-21t-21-60V0H367v338q0 39-22 60t-64 21q-52 0-74-21t-22-60V0H77Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "n",
+    horizAdvX: 549,
+    d: "M77 0v504h108v-29q22 18 53 29t70 12q49 0 87-18t60-53 22-84V0H369v335q0 40-21 62t-70 22q-46 0-69-22t-24-62V0H77Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "o",
+    horizAdvX: 525,
+    d: "M262-11q-91 0-143 49T57 163q-6 48-6 88 0 21 1 43t5 47q10 75 62 124t143 50q92 0 144-49t62-125q6-49 6-90 0-40-6-88-10-75-62-124T262-11Zm0 90q49 0 74 28t30 67q4 42 4 77t-4 78q-4 39-29 67t-75 28q-47 0-73-28t-30-67q-4-43-4-78t5-77q4-38 29-66t73-29Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "p",
+    horizAdvX: 543,
+    d: "M77-200v704h108v-28q19 17 50 28t65 11q89 0 134-45t54-124q2-26 3-48t1-45q0-21-1-43t-3-51q-7-77-52-123T304-10q-14 0-23 1t-20 4l-55 34q-9 5-15 2t-6-12v-219H77ZM282 80q51 0 73 26t26 62q4 42 4 84t-4 84q-3 36-26 61t-73 26q-48 0-72-21t-25-59V162q0-36 25-59t72-23Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "q",
+    horizAdvX: 543,
+    d: "M358-200V19q0 9-5 12t-14-2L282-5q-10-2-19-3t-24-2q-87 0-132 46T55 159q-2 28-3 50t-1 44q0 23 1 45t3 48q8 78 54 123t134 46q34 0 65-11t50-28v28h108v-704H358ZM261 80q47 0 72 23t25 59v181q0 37-24 58t-73 22q-49 0-72-25t-27-62q-4-41-4-83t4-85q3-36 26-62t73-26Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "r",
+    horizAdvX: 373,
+    d: "M86 0v374l-57 84 92 58 38-57q6-8 12-8t13 7q26 25 66 41t96 17h13V414q-87 0-127-30t-40-84V0H86Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "s",
+    horizAdvX: 461,
+    d: "M231-12q-52 0-96 14T49 45l33 84q28-19 52-29t47-16 50-5q47 0 70 19t23 52q0 24-17 41t-53 19l-57 4q-63 4-105 37T49 354q0 75 51 118t138 44q48 0 88-10t78-35l-32-82q-27 18-59 27t-74 9q-46 0-69-17t-24-48q0-24 17-37t44-16l57-4q74-4 115-42t42-107q0-75-50-120T231-12Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "t",
+    horizAdvX: 355,
+    d: "M214 0q-52 0-84 31t-32 82v301H14v90h71q9 0 14 6t10 27 13 69l5 24h77V504h107v-90H204V123q0-13 7-21t20-8h84V0H214Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "u",
+    horizAdvX: 543,
+    d: "M232-11q-48 0-85 18T88 60t-22 84v360h108V170q0-40 21-62t69-22q48 0 71 22t23 62v334h108V0H357v20q0 9-5 11t-15-2L281-5q-19-6-49-6Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "v",
+    horizAdvX: 479,
+    d: "M162 0 26 504h109l90-356 7-60q2-8 7-8t7 8l8 60 91 356h108L315 0H162Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "w",
+    horizAdvX: 619,
+    d: "M119 2 40 504h99l41-269 1-67q1-10 7-10t9 8l81 338h63l81-338q2-8 8-8t7 10l2 67 42 269h98L499 2H399l-80 291q-2 10-9 10t-10-10L220 2H119Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "x",
+    horizAdvX: 486,
+    d: "m26 0 144 252L26 504h118l77-147 15-46q2-6 7-6t8 6l16 46 75 147h118L317 252 460 0H342l-75 147-16 46q-2 6-7 6t-8-6l-15-46L144 0H26Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "y",
+    horizAdvX: 475,
+    d: "m88-218-32 94q53 11 80 41t41 74l14 47L16 504h111l97-277 10-69q1-8 7-8t8 8l12 69 78 277h109L276-46q-20-67-68-112T88-218Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "z",
+    horizAdvX: 458,
+    d: "M48 0v70l201 297 32 31q9 9 6 12t-9 4H48v90h362v-70L209 137l-32-31q-9-9-6-12t9-4h230V0H48Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "{",
+    horizAdvX: 508,
+    d: "M361-159q-75 0-120 40T196 11v203q1 36-20 58t-57 24l-29 1v98l29 1q36 2 57 24t20 58v203q0 91 45 130t120 40h57v-87h-50q-37 0-51-21t-15-62V474q0-44-9-66t-25-42l-42-12q-9-3-9-8t9-8l42-12q16-20 25-42t9-70V11q0-40 14-61t52-22h50v-87h-57Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "|",
+    horizAdvX: 316,
+    d: "M102-150V850h112V-150H102Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "}",
+    horizAdvX: 508,
+    d: "M90-159v87h50q38 0 52 21t14 62v199q0 48 9 72t26 44l42 12q9 3 9 8t-9 8l-42 12q-17 20-26 43t-9 69v203q0 40-14 61t-52 22H90v87h58q74 0 119-39t45-131l1-203q-1-36 19-58t57-24l29-1v-98l-29-1q-36-1-56-23t-20-59l-1-203q0-90-45-130t-119-40H90Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "~",
+    horizAdvX: 600,
+    d: "M396 187q-39 0-64 8t-44 20-40 19-50 9q-31 0-58-11t-49-30l-47 70q36 32 76 45t82 14q39 0 64-8t45-20 40-19 50-9q32 0 59 11t48 30l47-70q-35-30-75-44t-84-15Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    horizAdvX: 276
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\xA1",
+    horizAdvX: 277,
+    d: "m180 286 22-482H75l22 482h83Zm15 218V389H81v115h114Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\xA2",
+    horizAdvX: 448,
+    d: "M184-114V0q-56 18-88 61T57 162q-6 50-6 90 0 21 1 42t5 47q7 58 39 101t88 62v114h103V515q38-2 66-14t56-31l-30-82q-26 17-52 26t-60 10q-49 0-77-27t-31-67q-3-44-3-79t3-78q3-38 31-66t79-28q30 0 58 8t57 27l28-79q-31-22-60-33t-65-14v-102H184Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\xA3",
+    horizAdvX: 575,
+    d: "M64 0v92q41 13 62 49t21 96v66H65v96h82v136q0 51 23 91t69 63 115 23q48 0 88-14t67-39l-43-76q-21 20-46 29t-55 9q-56 0-84-22t-28-62V399h251v-96H253v-61q-1-43-9-74t-24-50q-7-8-4-15t14-7h274V0H64Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\xA5",
+    horizAdvX: 604,
+    d: "M246 0v196H81v91h167v10l-54 116H81v91h70L56 700h120l107-233 12-56q2-6 8-6t7 6l13 56 106 233h119l-95-196h76v-91H411l-54-116v-10h172v-91H358V0H246Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\xA7",
+    horizAdvX: 515,
+    d: "M252-12q-52 0-96 14T70 45l33 84q28-19 52-29t47-16 50-5q47 0 70 16t23 48q0 25-17 42t-53 19l-57 4q-63 4-105 39T70 357q0 35 11 62t33 48q-19 17-30 43t-12 64q0 74 51 118t139 44q48 0 88-10t77-35l-32-82q-27 18-59 27t-74 9q-45 0-68-17t-24-48q0-29 16-43t44-16l57-4q74-5 116-43t42-107q0-70-47-112 44-38 44-107 0-75-50-117T252-12Zm1 313q49 0 71 13t23 49q0 26-18 43t-71 18q-51-1-71-17t-20-44q0-32 20-46t66-16Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\xA8",
+    horizAdvX: 398,
+    d: "M234 591v109h102V591H234Zm-184 0v109h102V591H50Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\xA9",
+    horizAdvX: 966,
+    d: "M483-66q-85 0-160 32T191 55t-89 132-32 160q0 86 32 160t89 132 132 89 160 32q86 0 160-32t132-89 89-131 32-161q0-85-32-160T775 55 644-34 483-66Zm0 146q-62 0-108 23t-75 64-40 89q-6 25-8 46t-2 43q0 21 2 43t8 47q11 49 40 88t74 63 107 24q51 0 91-13t72-39l-31-83q-25 20-57 31t-70 12q-33 0-60-14t-43-36-22-48q-7-41-7-75t7-75q5-26 21-48t44-35 61-14q35 0 70 11t61 29l29-78q-34-26-76-40t-88-15Zm0-71q70 0 131 26t108 72 73 108 27 132q0 70-26 131t-73 108-108 73-132 27q-70 0-131-26t-107-73-73-108-27-132q0-70 26-131t73-108 108-73T483 9Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\xAA",
+    horizAdvX: 446,
+    d: "m328 356-27 38q-7 10-17 3-19-16-43-27t-60-12q-61 0-96 34t-36 90q0 59 40 90t103 32h85v49q0 31-20 48t-62 17q-30 0-56-9t-53-28l-30 80q34 21 70 32t77 11q85 0 125-42t41-105V461l37-60-78-45Zm-130 78q37 0 58 19t21 53v22q0 13-16 9l-38-9h-28q-26 0-40-12t-14-33q0-20 16-34t41-15Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\xAB",
+    horizAdvX: 560,
+    d: "M391 51 265 192v75l126 141h118L382 266l-43-29q-10-7 0-15l43-29L509 51H391Zm-221 0L44 192v75l126 141h118L161 266l-43-29q-10-7 0-15l43-29L288 51H170Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\xAC",
+    horizAdvX: 588,
+    d: "M422 106v196H70v96h448V106h-96Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\xAE",
+    horizAdvX: 966,
+    d: "M483-66q-85 0-160 32T191 55t-89 132-32 160q0 86 32 160t89 132 132 89 160 32q86 0 160-32t132-89 89-131 32-161q0-85-32-160T775 55 644-34 483-66Zm0 75q70 0 131 26t108 72 73 108 27 132q0 70-26 131t-73 108-108 73-132 27q-70 0-131-26t-107-73-73-108-27-132q0-70 26-131t73-108 108-73T483 9ZM318 97v500h198q78 0 120-43t43-107q0-55-24-91t-67-50q-9-3-2-13l20-33 70-163H563l-82 193h-62V97H318Zm101 285h80q32 0 50 13t18 44q0 34-18 48t-50 15h-80V382Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\xAF",
+    horizAdvX: 370,
+    d: "M50 597v81h270v-81H50Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\xB0",
+    horizAdvX: 482,
+    d: "M242 406q-42 0-80 16t-61 54-24 108q0 69 24 107t63 54 78 15q40 0 77-15t62-53 24-108q0-70-24-108t-61-54-78-16Zm-2 78q21 0 38 7t27 29 10 64q0 41-9 62t-27 28-39 8q-33 0-53-19t-20-79q0-42 10-63t27-29 36-8Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\xB1",
+    horizAdvX: 628,
+    d: "M266 167v166H70v96h196v166h96V429h196v-96H362V167h-96ZM90 1v96h448V1H90Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\xB2",
+    horizAdvX: 411,
+    d: "M49 350v89q0 52 26 91t88 65l49 21q31 13 44 27t13 33q0 24-20 37t-56 13q-26 0-55-5t-60-21l-28 76q38 21 74 28t76 7q38 0 76-13t65-42 26-78q0-46-23-76t-73-53l-57-27q-29-12-44-25t-20-24-5-21v-12h218v-90H49Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\xB3",
+    horizAdvX: 409,
+    d: "M190 344q-46 0-84 10t-74 38l31 81q29-24 59-32t62-9q41 0 62 14t21 39q0 22-19 37t-61 15h-59v80h59q38 0 55 14t18 38q0 26-21 41t-64 15q-22 0-50-5t-56-21l-28 76q35 23 70 30t73 7q39 0 78-13t66-43 26-78q0-40-19-63t-48-37q35-15 55-38t20-62q0-46-25-76t-66-44-81-14Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\xB4",
+    horizAdvX: 326,
+    d: "m305 591 116 159h110L416 591H305Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\xB5",
+    horizAdvX: 551,
+    d: "m70-165-1 669h108V170q0-40 21-62t69-22q48 0 71 22t23 62v334h108V0H360v20q0 9-5 11t-15-2L284-5q-19-6-49-6-16 0-31 2t-27 8v-164H70Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\xB6",
+    horizAdvX: 685,
+    d: "M233-250v505q-52 0-98 19t-74 69-29 135q0 65 17 108t46 68 65 35 73 11h383v-96h-80v-854H425v854h-80v-854H233Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\xB7",
+    horizAdvX: 278,
+    d: "M82 200v120h113V200H82Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\xB8",
+    horizAdvX: 321,
+    d: "m50-254 19 70q57 0 89 12t33 33q0 19-24 25t-82 6l33 135 68-25-13-50q45-6 71-29t27-58q0-39-30-65t-80-40-111-14Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\xB9",
+    horizAdvX: 382,
+    d: "M56 350v84h104v279H46v58l216 42-1-379h99v-84H56Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\xBA",
+    horizAdvX: 464,
+    d: "M232 350q-78 0-123 43T56 501q-3 21-4 39t-1 37q0 19 1 38t4 40q8 66 53 108t123 43q78 0 124-42t52-109q2-20 3-39t2-39q0-18-1-36t-4-40q-8-63-53-107t-123-44Zm0 87q37 0 56 22t22 54q3 36 3 65t-2 65q-3 32-22 55t-57 24q-37 0-57-23t-23-56q-3-36-2-65t3-64q4-32 23-54t56-23Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\xBB",
+    horizAdvX: 560,
+    d: "m272 51 126 142 43 29q10 8 0 15l-43 29-127 142h118l126-141v-75L389 51H272ZM51 51l126 142 43 29q10 8 0 15l-43 29L50 408h118l126-141v-75L168 51H51Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\xBC",
+    horizAdvX: 1046,
+    d: "M56 501v84h104v279H46v58l216 42-1-379h99v-84H56ZM322 0l312 700h113L437 0H322Zm561 0v114H647v45l147 296h103L763 193h120v132h93V0h-93Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\xBD",
+    horizAdvX: 1070,
+    d: "M56 501v84h104v279H46v58l216 42-1-379h99v-84H56ZM322 0l312 700h113L437 0H322Zm386 0v89q0 52 26 91t88 65l49 21q31 13 44 27t13 33q0 24-20 37t-56 13q-26 0-55-5t-60-21l-28 76q38 21 74 28t76 7q38 0 76-13t65-42 26-78q0-46-23-76t-73-53l-57-27q-29-12-44-25t-20-24-5-21V90h218V0H708Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\xBE",
+    horizAdvX: 1036,
+    d: "M190 495q-46 0-84 10t-74 38l31 81q29-24 59-32t62-9q41 0 62 14t21 39q0 22-19 37t-61 15h-59v80h59q38 0 55 14t18 38q0 26-21 41t-64 15q-22 0-50-5t-56-21l-28 76q35 23 70 30t73 7q39 0 78-13t66-43 26-78q0-40-19-63t-48-37q35-15 55-38t20-62q0-46-25-76t-66-44-81-14ZM312 0l312 700h113L427 0H312Zm561 0v114H637v45l147 296h103L753 193h120v132h93V0h-93Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\xBF",
+    horizAdvX: 495,
+    d: "M337 286q5-18 6-30t2-24q0-45-22-74t-72-50l-46-21q-23-12-42-31T144-7q0-36 17-58t46-32 61-10q33 0 57 5t46 14 44 23l32-89q-39-25-84-39t-98-14q-64 0-116 23t-82 69T36-3q0 53 19 86t48 55 60 35l36 17q24 10 38 23t14 42v31h86Zm14 218V392H237v112h114Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\xC0",
+    horizAdvX: 583,
+    d: "m30 0 186 700h160L563 0H449L312 544l-8 57q-1 7-7 7t-8-7l-8-57L144 0H30Zm135 177 25 96h213l25-96H165Zm-59 428v95h133l-8-95H106Zm150 164L140 928h111l115-159H256Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\xC1",
+    horizAdvX: 583,
+    d: "m30 0 186 700h160L563 0H449L312 544l-8 57q-1 7-7 7t-8-7l-8-57L144 0H30Zm135 177 25 96h213l25-96H165Zm-59 428v95h133l-8-95H106Zm114 164 116 159h110L331 769H220Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\xC2",
+    horizAdvX: 583,
+    d: "m30 0 186 700h160L563 0H449L312 544l-8 57q-1 7-7 7t-8-7l-8-57L144 0H30Zm135 177 25 96h213l25-96H165Zm-59 428v95h133l-8-95H106Zm42 164 91 159h108l92-159h-96l-33 63-11 34q-2 8-5 8t-7-8l-10-34-34-63h-95Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\xC3",
+    horizAdvX: 583,
+    d: "m30 0 186 700h160L563 0H449L312 544l-8 57q-1 7-7 7t-8-7l-8-57L144 0H30Zm135 177 25 96h213l25-96H165Zm-59 428v95h133l-8-95H106Zm52 154-27 69q19 25 42 36t52 11q35 0 56-9t38-18 41-10q21 0 37 10t32 29l26-69q-18-24-42-35t-52-12q-34 0-55 9t-39 19-40 9q-21 0-37-9t-32-30Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\xC4",
+    horizAdvX: 583,
+    d: "m30 0 186 700h160L563 0H449L312 544l-8 57q-1 7-7 7t-8-7l-8-57L144 0H30Zm135 177 25 96h213l25-96H165Zm-59 428v95h133l-8-95H106Zm229 164v109h102V769H335Zm-184 0v109h102V769H151Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\xC5",
+    horizAdvX: 583,
+    d: "m30 0 186 700h160L563 0H449L312 544l-8 57q-1 7-7 7t-8-7l-8-57L144 0H30Zm135 177 25 96h213l25-96H165Zm-59 428v95h133l-8-95H106Zm189 140q-38 0-71 10t-53 33-21 64q0 42 21 65t54 32 70 10q35 0 68-9t53-33 21-65q0-41-20-64t-54-33-68-10Zm-2 60q29 0 49 8t21 40q0 29-20 37t-50 9q-31 0-50-8t-19-39q0-30 20-38t49-9Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\xC6",
+    horizAdvX: 857,
+    d: "m30 0 160 600h-84v100h695V600H492V399h292v-98H492V102h309V0H388v177H188L144 0H30Zm182 273h176v327h-93l-83-327Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\xC7",
+    horizAdvX: 503,
+    d: "M310-12q-72 0-126 26T97 92 60 216q-2 29-4 66t-2 68q0 32 2 68t4 66q5 73 36 124t85 77 125 27q46 0 85-15t76-44l-32-89q-29 23-58 34t-65 12q-64 0-100-35t-40-100q-2-35-3-64t-2-61q0-31 1-60t4-65q5-66 40-100t98-34q36 0 66 12t58 34l33-92q-35-28-73-42t-84-15ZM179-254l19 70q57 0 89 12t33 33q0 19-24 25t-82 6l33 135 68-25-13-50q45-6 71-29t27-58q0-39-30-65t-80-40-111-14Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\xC8",
+    horizAdvX: 552,
+    d: "M82 0v700h414V598H186V399h293v-98H186V102h310V0H82Zm177 769L143 928h111l115-159H259Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\xC9",
+    horizAdvX: 552,
+    d: "M82 0v700h414V598H186V399h293v-98H186V102h310V0H82Zm141 769 116 159h110L334 769H223Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\xCA",
+    horizAdvX: 552,
+    d: "M82 0v700h414V598H186V399h293v-98H186V102h310V0H82Zm69 769 91 159h108l92-159h-96l-33 63-11 34q-2 8-5 8t-7-8l-10-34-34-63h-95Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\xCB",
+    horizAdvX: 552,
+    d: "M82 0v700h414V598H186V399h293v-98H186V102h310V0H82Zm255 769v109h102V769H337Zm-184 0v109h102V769H153Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\xCC",
+    horizAdvX: 431,
+    d: "M50 0v97h109v506H50v97h331v-97H272V97h109V0H50Zm128 769L62 928h111l115-159H178Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\xCD",
+    horizAdvX: 431,
+    d: "M50 0v97h109v506H50v97h331v-97H272V97h109V0H50Zm92 769 116 159h110L253 769H142Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\xCE",
+    horizAdvX: 431,
+    d: "M50 0v97h109v506H50v97h331v-97H272V97h109V0H50Zm20 769 91 159h108l92-159h-96l-33 63-11 34q-2 8-5 8t-7-8l-10-34-34-63H70Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\xCF",
+    horizAdvX: 431,
+    d: "M50 0v97h109v506H50v97h331v-97H272V97h109V0H50Zm207 769v109h102V769H257Zm-184 0v109h102V769H73Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\xD0",
+    horizAdvX: 617,
+    d: "M0 306v87h310v-87H0ZM102 0v700h191q125 0 190-62t74-168q2-27 3-59t2-61q0-29-1-61t-4-59q-8-106-73-168T293 0H102Zm112 95h79q79 0 115 42t42 107q3 32 3 55t1 51v50q0 22-4 56-5 65-41 107t-116 42h-79V95Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\xD1",
+    horizAdvX: 630,
+    d: "M82 0v700h93l263-483q5-7 10-4t5 10l-13 75v402h108V0H448L193 465q-4 8-10 6t-5-10l12-75V0H82Zm98 777-27 69q19 25 42 36t52 11q35 0 56-9t38-18 41-10q21 0 37 10t32 29l26-69q-18-24-42-35t-52-12q-34 0-55 9t-39 19-40 9q-21 0-37-9t-32-30Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\xD2",
+    horizAdvX: 612,
+    d: "M306-12q-53 0-98 16t-78 50q-22 23-39 56t-27 90-10 150q0 93 9 150t27 90 40 56q33 34 78 50t98 16q53 0 98-16t77-50q23-22 40-55t26-91 10-150q0-93-9-150t-27-90-40-56q-32-34-77-50t-98-16Zm0 103q61 0 95 34t38 94q2 38 3 69t2 62q0 32-1 63t-4 68q-4 59-38 93t-95 35q-62 0-96-34t-37-94q-3-37-4-68t-2-63q0-31 1-62t5-69q3-59 37-93t96-35Zm-38 678L152 928h111l115-159H268Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\xD3",
+    horizAdvX: 612,
+    d: "M306-12q-53 0-98 16t-78 50q-22 23-39 56t-27 90-10 150q0 93 9 150t27 90 40 56q33 34 78 50t98 16q53 0 98-16t77-50q23-22 40-55t26-91 10-150q0-93-9-150t-27-90-40-56q-32-34-77-50t-98-16Zm0 103q61 0 95 34t38 94q2 38 3 69t2 62q0 32-1 63t-4 68q-4 59-38 93t-95 35q-62 0-96-34t-37-94q-3-37-4-68t-2-63q0-31 1-62t5-69q3-59 37-93t96-35Zm-74 678 116 159h110L343 769H232Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\xD4",
+    horizAdvX: 612,
+    d: "M306-12q-53 0-98 16t-78 50q-22 23-39 56t-27 90-10 150q0 93 9 150t27 90 40 56q33 34 78 50t98 16q53 0 98-16t77-50q23-22 40-55t26-91 10-150q0-93-9-150t-27-90-40-56q-32-34-77-50t-98-16Zm0 103q61 0 95 34t38 94q2 38 3 69t2 62q0 32-1 63t-4 68q-4 59-38 93t-95 35q-62 0-96-34t-37-94q-3-37-4-68t-2-63q0-31 1-62t5-69q3-59 37-93t96-35ZM160 769l91 159h108l92-159h-96l-33 63-11 34q-2 8-5 8t-7-8l-10-34-34-63h-95Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\xD5",
+    horizAdvX: 612,
+    d: "M306-12q-53 0-98 16t-78 50q-22 23-39 56t-27 90-10 150q0 93 9 150t27 90 40 56q33 34 78 50t98 16q53 0 98-16t77-50q23-22 40-55t26-91 10-150q0-93-9-150t-27-90-40-56q-32-34-77-50t-98-16Zm0 103q61 0 95 34t38 94q2 38 3 69t2 62q0 32-1 63t-4 68q-4 59-38 93t-95 35q-62 0-96-34t-37-94q-3-37-4-68t-2-63q0-31 1-62t5-69q3-59 37-93t96-35ZM170 759l-27 69q19 25 42 36t52 11q35 0 56-9t38-18 41-10q21 0 37 10t32 29l26-69q-18-24-42-35t-52-12q-34 0-55 9t-39 19-40 9q-21 0-37-9t-32-30Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\xD6",
+    horizAdvX: 612,
+    d: "M306-12q-53 0-98 16t-78 50q-22 23-39 56t-27 90-10 150q0 93 9 150t27 90 40 56q33 34 78 50t98 16q53 0 98-16t77-50q23-22 40-55t26-91 10-150q0-93-9-150t-27-90-40-56q-32-34-77-50t-98-16Zm0 103q61 0 95 34t38 94q2 38 3 69t2 62q0 32-1 63t-4 68q-4 59-38 93t-95 35q-62 0-96-34t-37-94q-3-37-4-68t-2-63q0-31 1-62t5-69q3-59 37-93t96-35Zm41 678v109h102V769H347Zm-184 0v109h102V769H163Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\xD7",
+    horizAdvX: 556,
+    d: "m139 144-67 67 139 139L72 489l67 67 139-139 139 139 67-67-138-139 138-139-67-67-139 139-139-139Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\xD8",
+    horizAdvX: 612,
+    d: "M306-12q-53 0-98 16t-78 50q-22 23-39 56t-27 90-10 150q0 93 9 150t27 90 40 56q33 34 78 50t98 16q53 0 98-16t77-50q23-22 40-55t26-91 10-150q0-93-9-150t-27-90-40-56q-32-34-77-50t-98-16Zm0 103q61 0 95 34t38 94q2 38 3 69t2 62q0 32-1 63t-4 68q-4 59-38 93t-95 35q-62 0-96-34t-37-94q-3-37-4-68t-2-63q0-31 1-62t5-69q3-59 37-93t96-35ZM242 0l540 700h99L341 0h-99Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\xD9",
+    horizAdvX: 607,
+    d: "M303-10q-67 0-118 27t-81 77-29 113v493h114l-1-494q0-51 32-82t83-32q51 0 83 31t32 83v494h114l-2-493q0-64-28-113t-80-76-119-28Zm-37 779L150 928h111l115-159H266Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\xDA",
+    horizAdvX: 607,
+    d: "M303-10q-67 0-118 27t-81 77-29 113v493h114l-1-494q0-51 32-82t83-32q51 0 83 31t32 83v494h114l-2-493q0-64-28-113t-80-76-119-28Zm-73 779 116 159h110L341 769H230Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\xDB",
+    horizAdvX: 607,
+    d: "M303-10q-67 0-118 27t-81 77-29 113v493h114l-1-494q0-51 32-82t83-32q51 0 83 31t32 83v494h114l-2-493q0-64-28-113t-80-76-119-28ZM158 769l91 159h108l92-159h-96l-33 63-11 34q-2 8-5 8t-7-8l-10-34-34-63h-95Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\xDC",
+    horizAdvX: 607,
+    d: "M303-10q-67 0-118 27t-81 77-29 113v493h114l-1-494q0-51 32-82t83-32q51 0 83 31t32 83v494h114l-2-493q0-64-28-113t-80-76-119-28Zm42 779v109h102V769H345Zm-184 0v109h102V769H161Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\xDD",
+    horizAdvX: 492,
+    d: "M190 0v301L0 700h120l107-233 12-56q2-6 7-6t8 6l13 56 106 233h119L302 301V0H190Zm-17 769 116 159h110L284 769H173Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\xDE",
+    horizAdvX: 564,
+    d: "M82 0v700h111V561h139q93 0 147-55t55-149q0-91-54-144t-148-54H193V0H82Zm111 255h133q47 0 74 27t27 76q0 51-27 80t-74 29H193V255Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\xDF",
+    horizAdvX: 685,
+    d: "M454-12q-52 0-96 14t-86 43l33 84q28-19 51-29t47-16 49-5q47 0 70 19t23 52q0 24-18 41t-52 19l-52 4q-66 4-108 37t-43 104q0 59 33 96t94 56l35 10q27 8 39 24t12 37q0 19-14 37t-45 31-80 12q-79 0-119-34t-40-94V0H77v528q0 64 30 115t90 80 148 30q84 0 137-25t79-64 26-84q0-53-32-91t-91-57l-37-12q-28-9-41-23t-13-36q0-25 16-38t45-16l53-4q74-4 116-42t42-107q0-75-51-120T454-12Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\xE0",
+    horizAdvX: 497,
+    d: "m372-12-33 47q-8 11-17 2-24-20-51-33t-71-14q-72 0-114 40T44 135q0 46 21 77t58 48 87 17h105v63q0 39-24 61t-74 22q-37 0-68-11t-63-34l-31 87q38 26 79 38t90 13q97 0 143-48t47-122V113l47-69-89-56ZM215 73q46 0 73 24t27 64v33q0 16-18 11l-48-11h-35q-33 0-51-15t-19-42q0-27 19-45t52-19Zm-6 518L93 750h111l115-159H209Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\xE1",
+    horizAdvX: 497,
+    d: "m372-12-33 47q-8 11-17 2-24-20-51-33t-71-14q-72 0-114 40T44 135q0 46 21 77t58 48 87 17h105v63q0 39-24 61t-74 22q-37 0-68-11t-63-34l-31 87q38 26 79 38t90 13q97 0 143-48t47-122V113l47-69-89-56ZM215 73q46 0 73 24t27 64v33q0 16-18 11l-48-11h-35q-33 0-51-15t-19-42q0-27 19-45t52-19Zm-42 518 116 159h110L284 591H173Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\xE2",
+    horizAdvX: 497,
+    d: "m372-12-33 47q-8 11-17 2-24-20-51-33t-71-14q-72 0-114 40T44 135q0 46 21 77t58 48 87 17h105v63q0 39-24 61t-74 22q-37 0-68-11t-63-34l-31 87q38 26 79 38t90 13q97 0 143-48t47-122V113l47-69-89-56ZM215 73q46 0 73 24t27 64v33q0 16-18 11l-48-11h-35q-33 0-51-15t-19-42q0-27 19-45t52-19ZM101 591l91 159h108l92-159h-96l-33 63-11 34q-2 8-5 8t-7-8l-10-34-34-63h-95Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\xE3",
+    horizAdvX: 497,
+    d: "m372-12-33 47q-8 11-17 2-24-20-51-33t-71-14q-72 0-114 40T44 135q0 46 21 77t58 48 87 17h105v63q0 39-24 61t-74 22q-37 0-68-11t-63-34l-31 87q38 26 79 38t90 13q97 0 143-48t47-122V113l47-69-89-56ZM215 73q46 0 73 24t27 64v33q0 16-18 11l-48-11h-35q-33 0-51-15t-19-42q0-27 19-45t52-19ZM112 581l-27 69q19 25 42 36t52 11q35 0 56-9t38-18 41-10q21 0 37 10t32 29l26-69q-18-24-42-35t-52-12q-34 0-55 9t-39 19-40 9q-21 0-37-9t-32-30Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\xE4",
+    horizAdvX: 497,
+    d: "m372-12-33 47q-8 11-17 2-24-20-51-33t-71-14q-72 0-114 40T44 135q0 46 21 77t58 48 87 17h105v63q0 39-24 61t-74 22q-37 0-68-11t-63-34l-31 87q38 26 79 38t90 13q97 0 143-48t47-122V113l47-69-89-56ZM215 73q46 0 73 24t27 64v33q0 16-18 11l-48-11h-35q-33 0-51-15t-19-42q0-27 19-45t52-19Zm73 518v109h102V591H288Zm-184 0v109h102V591H104Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\xE5",
+    horizAdvX: 497,
+    d: "m372-12-33 47q-8 11-17 2-24-20-51-33t-71-14q-72 0-114 40T44 135q0 46 21 77t58 48 87 17h105v63q0 39-24 61t-74 22q-37 0-68-11t-63-34l-31 87q38 26 79 38t90 13q97 0 143-48t47-122V113l47-69-89-56ZM215 73q46 0 73 24t27 64v33q0 16-18 11l-48-11h-35q-33 0-51-15t-19-42q0-27 19-45t52-19Zm33 494q-38 0-71 10t-53 33-21 64q0 42 21 65t54 32 70 10q35 0 68-9t53-33 21-65q0-41-20-64t-54-33-68-10Zm-2 60q29 0 49 8t21 40q0 29-20 37t-50 9q-31 0-50-8t-19-39q0-30 20-38t49-9Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\xE6",
+    horizAdvX: 759,
+    d: "M204-10q-74 0-117 40T44 135q0 46 21 77t58 48 87 17h105v63q0 39-24 61t-74 22q-37 0-68-11t-63-34l-31 87q38 26 79 38t90 13q41 0 71-9t54-27l20-24q8-10 15 0l19 23q23 16 52 25t65 10q58 0 96-20t61-53 31-76 9-86l-20-52H417q0-73 27-110t94-38q35 0 66 10t61 30l30-80q-39-26-74-37t-83-12q-48 0-85 13t-65 36l-15 21q-8 11-15 0l-14-21q-31-26-67-37t-73-12Zm11 83q46 0 73 24t27 64v33q0 16-18 11l-48-11h-35q-33 0-51-15t-19-42q0-27 19-45t52-19Zm203 236h200q-1 29-9 55t-29 44-60 17q-49 0-74-31t-28-85Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\xE7",
+    horizAdvX: 448,
+    d: "M264-13q-93 0-145 50T57 162q-6 50-6 90 0 21 1 42t5 47q10 76 62 125t144 50q45 0 80-11t66-35l-30-82q-26 17-52 26t-60 10q-49 0-77-27t-31-67q-3-44-3-79t3-78q3-38 31-66t79-28q30 0 58 8t57 27l28-79q-36-25-71-36t-77-12ZM139-254l19 70q57 0 89 12t33 33q0 19-24 25t-82 6l33 135 68-25-13-50q45-6 71-29t27-58q0-39-30-65t-80-40-111-14Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\xE8",
+    horizAdvX: 494,
+    d: "M274-10q-64 0-110 22T91 74t-34 88q-3 24-4 45t-2 42q0 40 6 89 9 76 60 126t138 50q59 0 97-20t61-53 31-76 9-86l-20-52H99l-1 82h255q0 29-8 55t-29 44-60 17q-48 0-73-29t-28-74q-2-25-3-61t3-82q5-46 35-73t84-27q34 0 66 10t61 30l29-80q-38-26-74-37t-82-12Zm-57 601L101 750h111l115-159H217Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\xE9",
+    horizAdvX: 494,
+    d: "M274-10q-64 0-110 22T91 74t-34 88q-3 24-4 45t-2 42q0 40 6 89 9 76 60 126t138 50q59 0 97-20t61-53 31-76 9-86l-20-52H99l-1 82h255q0 29-8 55t-29 44-60 17q-48 0-73-29t-28-74q-2-25-3-61t3-82q5-46 35-73t84-27q34 0 66 10t61 30l29-80q-38-26-74-37t-82-12Zm-93 601 116 159h110L292 591H181Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\xEA",
+    horizAdvX: 494,
+    d: "M274-10q-64 0-110 22T91 74t-34 88q-3 24-4 45t-2 42q0 40 6 89 9 76 60 126t138 50q59 0 97-20t61-53 31-76 9-86l-20-52H99l-1 82h255q0 29-8 55t-29 44-60 17q-48 0-73-29t-28-74q-2-25-3-61t3-82q5-46 35-73t84-27q34 0 66 10t61 30l29-80q-38-26-74-37t-82-12ZM109 591l91 159h108l92-159h-96l-33 63-11 34q-2 8-5 8t-7-8l-10-34-34-63h-95Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\xEB",
+    horizAdvX: 494,
+    d: "M274-10q-64 0-110 22T91 74t-34 88q-3 24-4 45t-2 42q0 40 6 89 9 76 60 126t138 50q59 0 97-20t61-53 31-76 9-86l-20-52H99l-1 82h255q0 29-8 55t-29 44-60 17q-48 0-73-29t-28-74q-2-25-3-61t3-82q5-46 35-73t84-27q34 0 66 10t61 30l29-80q-38-26-74-37t-82-12Zm22 601v109h102V591H296Zm-184 0v109h102V591H112Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\xEC",
+    horizAdvX: 301,
+    d: "M116 0v413H38v91h186V0H116Zm255 591L255 750h111l115-159H371Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\xED",
+    horizAdvX: 301,
+    d: "M116 0v413H38v91h186V0H116ZM79 591l116 159h110L190 591H79Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\xEE",
+    horizAdvX: 306,
+    d: "m27 591 73 159h110l73-159h-90l-26 63-8 34q-2 8-4 8t-5-8l-9-34-24-63H27ZM116 0v413H38v91h186V0H116Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\xEF",
+    horizAdvX: 306,
+    d: "M181 591v109h96V591h-96Zm-155 0v109h96V591H26ZM116 0v413H38v91h186V0H116Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\xF0",
+    horizAdvX: 566,
+    d: "m187 493-42 62 237 145 40-60-235-147Zm96-505q-72 0-126 29T73 98 42 219q0 73 30 122t79 75 99 25q7 0 15-1t16-2l45-24q12-6 15 0t-3 16L153 700h128l150-239q36-57 56-97t29-75 8-70q0-69-29-121t-84-81-128-29Zm0 99q62 0 99 36t36 96q0 60-37 96t-98 36q-62 0-98-36t-37-96q0-60 36-96t99-36Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\xF1",
+    horizAdvX: 549,
+    d: "M77 0v504h108v-29q22 18 53 29t70 12q49 0 87-18t60-53 22-84V0H369v335q0 40-21 62t-70 22q-46 0-69-22t-24-62V0H77Zm61 581-27 69q19 25 42 36t52 11q35 0 56-9t38-18 41-10q21 0 37 10t32 29l26-69q-18-24-42-35t-52-12q-34 0-55 9t-39 19-40 9q-21 0-37-9t-32-30Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\xF2",
+    horizAdvX: 525,
+    d: "M262-11q-91 0-143 49T57 163q-6 48-6 88 0 21 1 43t5 47q10 75 62 124t143 50q92 0 144-49t62-125q6-49 6-90 0-40-6-88-10-75-62-124T262-11Zm0 90q49 0 74 28t30 67q4 42 4 77t-4 78q-4 39-29 67t-75 28q-47 0-73-28t-30-67q-4-43-4-78t5-77q4-38 29-66t73-29Zm-37 512L109 750h111l115-159H225Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\xF3",
+    horizAdvX: 525,
+    d: "M262-11q-91 0-143 49T57 163q-6 48-6 88 0 21 1 43t5 47q10 75 62 124t143 50q92 0 144-49t62-125q6-49 6-90 0-40-6-88-10-75-62-124T262-11Zm0 90q49 0 74 28t30 67q4 42 4 77t-4 78q-4 39-29 67t-75 28q-47 0-73-28t-30-67q-4-43-4-78t5-77q4-38 29-66t73-29Zm-73 512 116 159h110L300 591H189Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\xF4",
+    horizAdvX: 525,
+    d: "M262-11q-91 0-143 49T57 163q-6 48-6 88 0 21 1 43t5 47q10 75 62 124t143 50q92 0 144-49t62-125q6-49 6-90 0-40-6-88-10-75-62-124T262-11Zm0 90q49 0 74 28t30 67q4 42 4 77t-4 78q-4 39-29 67t-75 28q-47 0-73-28t-30-67q-4-43-4-78t5-77q4-38 29-66t73-29ZM117 591l91 159h108l92-159h-96l-33 63-11 34q-2 8-5 8t-7-8l-10-34-34-63h-95Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\xF5",
+    horizAdvX: 525,
+    d: "M262-11q-91 0-143 49T57 163q-6 48-6 88 0 21 1 43t5 47q10 75 62 124t143 50q92 0 144-49t62-125q6-49 6-90 0-40-6-88-10-75-62-124T262-11Zm0 90q49 0 74 28t30 67q4 42 4 77t-4 78q-4 39-29 67t-75 28q-47 0-73-28t-30-67q-4-43-4-78t5-77q4-38 29-66t73-29ZM127 581l-27 69q19 25 42 36t52 11q35 0 56-9t38-18 41-10q21 0 37 10t32 29l26-69q-18-24-42-35t-52-12q-34 0-55 9t-39 19-40 9q-21 0-37-9t-32-30Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\xF6",
+    horizAdvX: 525,
+    d: "M262-11q-91 0-143 49T57 163q-6 48-6 88 0 21 1 43t5 47q10 75 62 124t143 50q92 0 144-49t62-125q6-49 6-90 0-40-6-88-10-75-62-124T262-11Zm0 90q49 0 74 28t30 67q4 42 4 77t-4 78q-4 39-29 67t-75 28q-47 0-73-28t-30-67q-4-43-4-78t5-77q4-38 29-66t73-29Zm42 512v109h102V591H304Zm-184 0v109h102V591H120Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\xF7",
+    horizAdvX: 588,
+    d: "M50 302v96h472v-96H50ZM230 82v120h113V82H230Zm0 416v120h113V498H230Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\xF8",
+    horizAdvX: 525,
+    d: "M262-11q-91 0-143 49T57 163q-6 48-6 88 0 21 1 43t5 47q10 75 62 124t143 50q92 0 144-49t62-125q6-49 6-90 0-40-6-88-10-75-62-124T262-11Zm0 90q49 0 74 28t30 67q4 42 4 77t-4 78q-4 39-29 67t-75 28q-47 0-73-28t-30-67q-4-43-4-78t5-77q4-38 29-66t73-29Zm12-79 389 504h98L373 0h-99Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\xF9",
+    horizAdvX: 543,
+    d: "M232-11q-48 0-85 18T88 60t-22 84v360h108V170q0-40 21-62t69-22q48 0 71 22t23 62v334h108V0H357v20q0 9-5 11t-15-2L281-5q-19-6-49-6Zm3 602L119 750h111l115-159H235Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\xFA",
+    horizAdvX: 543,
+    d: "M232-11q-48 0-85 18T88 60t-22 84v360h108V170q0-40 21-62t69-22q48 0 71 22t23 62v334h108V0H357v20q0 9-5 11t-15-2L281-5q-19-6-49-6Zm-33 602 116 159h110L310 591H199Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\xFB",
+    horizAdvX: 543,
+    d: "M232-11q-48 0-85 18T88 60t-22 84v360h108V170q0-40 21-62t69-22q48 0 71 22t23 62v334h108V0H357v20q0 9-5 11t-15-2L281-5q-19-6-49-6ZM127 591l91 159h108l92-159h-96l-33 63-11 34q-2 8-5 8t-7-8l-10-34-34-63h-95Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\xFC",
+    horizAdvX: 543,
+    d: "M232-11q-48 0-85 18T88 60t-22 84v360h108V170q0-40 21-62t69-22q48 0 71 22t23 62v334h108V0H357v20q0 9-5 11t-15-2L281-5q-19-6-49-6Zm82 602v109h102V591H314Zm-184 0v109h102V591H130Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\xFD",
+    horizAdvX: 475,
+    d: "m88-218-32 94q53 11 80 41t41 74l14 47L16 504h111l97-277 10-69q1-8 7-8t8 8l12 69 78 277h109L276-46q-20-67-68-112T88-218Zm76 809 116 159h110L275 591H164Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\xFE",
+    horizAdvX: 543,
+    d: "M77-200v900h108V476q19 17 50 28t65 11q89 0 134-45t54-124q2-26 3-48t1-45q0-21-1-43t-3-51q-7-77-52-123T304-10q-14 0-23 1t-20 4l-55 34q-9 5-15 2t-6-12v-219H77ZM282 80q51 0 73 26t26 62q4 42 4 84t-4 84q-3 36-26 61t-73 26q-48 0-72-21t-25-59V162q0-36 25-59t72-23Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\xFF",
+    horizAdvX: 475,
+    d: "m88-218-32 94q53 11 80 41t41 74l14 47L16 504h111l97-277 10-69q1-8 7-8t8 8l12 69 78 277h109L276-46q-20-67-68-112T88-218Zm191 809v109h102V591H279Zm-184 0v109h102V591H95Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\u2013",
+    horizAdvX: 564,
+    d: "M50 212v96h464v-96H50Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\u2014",
+    horizAdvX: 736,
+    d: "M50 212v96h636v-96H50Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\u2018",
+    horizAdvX: 215,
+    d: "m191 750-11-62q-47-11-73-45t-28-89h70V436H16v85q0 73 23 120t63 73 89 36Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\u2019",
+    horizAdvX: 307,
+    d: "m66 436 11 62q48 11 74 46t27 88h-69v118h132v-85q0-72-23-119t-63-74-89-36Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\u201A",
+    horizAdvX: 290,
+    d: "m-4-198 11 56q65 8 100 45t37 97H75v118h132V21q0-68-27-115t-76-73-108-31Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\u201C",
+    horizAdvX: 509,
+    d: "m241 750-11-62q-47-11-73-45t-28-89h64V436H66v85q0 73 23 120t63 73 89 36Zm202 0-11-62q-48-11-74-45t-27-89h63V436H268v85q0 73 23 120t63 73 89 36Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\u201D",
+    horizAdvX: 509,
+    d: "m268 436 10 62q48 11 74 46t27 88h-63v118h127v-85q0-72-23-119t-63-74-89-36Zm-202 0 11 62q48 11 74 46t27 88h-63v118h126v-85q0-72-23-119t-63-74-89-36Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\u201E",
+    horizAdvX: 455,
+    d: "m198-196 10 62q48 11 74 46t27 88h-63v118h127V33q0-72-23-119t-63-74-89-36Zm-202 0 11 62q48 11 74 46t27 88H45v118h126V33q0-72-23-119t-63-74-89-36Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\u2022",
+    horizAdvX: 368,
+    d: "M183 231q-42 0-63 17t-30 46-8 61q0 32 8 58t29 43 64 17q42 0 64-17t30-44 9-59q0-32-8-60t-31-45-64-17Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\u2039",
+    horizAdvX: 338,
+    d: "M170 51 44 192v75l126 141h118L161 266l-43-29q-10-7 0-15l43-29L288 51H170Z"
+  }), /*#__PURE__*/React.createElement("glyph", {
+    unicode: "\\u203A",
+    horizAdvX: 338,
+    d: "m51 51 126 142 43 29q10 8 0 15l-43 29L50 408h118l126-141v-75L168 51H51Z"
+  })))));
+};
+
+export default SvgFinlandicaV3Latin500;
