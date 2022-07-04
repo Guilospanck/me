@@ -4,6 +4,7 @@ import { HomeViewProps, BadgeType, BadgeInfo } from '../types'
 
 import {
   Container,
+  Page,
   PhotoContainer,
   Title,
   Subtitle,
@@ -60,21 +61,41 @@ const GetBadge = (badge: BadgeType, onMouseEnterBadge: (badgeType: BadgeType) =>
 
 export const HomeView = ({ viewModel }: HomeViewProps) => {
   return (
-    <Container title='container'>
-      <PhotoContainer title='photo-container' url={MeImg} />
-      <Title title='title-name-container'>Guilherme Rodrigues</Title>
-      <GetSubtitleMemoized />
-      <Badges>
-        {
-          Object.values(BadgeType).map((badge) => GetBadge(badge as BadgeType, viewModel.onMouseEnterBadge, viewModel.onMouseLeaveBadge, viewModel.badgeInfo))
-        }
-      </Badges>
-      <EmailContainer title='email-container'>
-        <Email href="mailto:guilospanck@protonmail.com" target={'_blank'}>guilospanck@protonmail.com</Email>
-      </EmailContainer>
-      <CurvesContainer>
-        <CurvesSVG />
-      </CurvesContainer>
-    </Container>
+    <>
+      <Container title='container'>
+        <Page height={80}>
+          <PhotoContainer title='photo-container' url={MeImg} />
+          <Title title='title-name-container'>Guilherme Rodrigues</Title>
+          <GetSubtitleMemoized />
+          <Badges>
+            {
+              Object.values(BadgeType).map((badge) => GetBadge(badge as BadgeType, viewModel.onMouseEnterBadge, viewModel.onMouseLeaveBadge, viewModel.badgeInfo))
+            }
+          </Badges>
+          <EmailContainer title='email-container'>
+            <Email href="mailto:guilospanck@protonmail.com" target={'_blank'}>guilospanck@protonmail.com</Email>
+          </EmailContainer>
+        </Page>
+
+        <CurvesContainer>
+          <CurvesSVG />
+        </CurvesContainer>
+
+        <Page bgcolor='#2d3134'>
+          <PhotoContainer title='photo-container' url={MeImg} />
+          <Title title='title-name-container'>Guilherme Rodrigues</Title>
+          <GetSubtitleMemoized />
+          <Badges>
+            {
+              Object.values(BadgeType).map((badge) => GetBadge(badge as BadgeType, viewModel.onMouseEnterBadge, viewModel.onMouseLeaveBadge, viewModel.badgeInfo))
+            }
+          </Badges>
+          <EmailContainer title='email-container'>
+            <Email href="mailto:guilospanck@protonmail.com" target={'_blank'}>guilospanck@protonmail.com</Email>
+          </EmailContainer>
+        </Page>
+
+      </Container>
+    </>
   )
 }
