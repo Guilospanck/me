@@ -13,7 +13,9 @@ import {
   Badges,
   BadgeContainer,
   Projects,
-  ProjectCard
+  ProjectCard,
+  FooterPhrase,
+  EdgePagePhoto
 } from './styles'
 import MeImg from '../../../assets/images/me.jpg'
 
@@ -78,7 +80,7 @@ export const HomeView = ({ viewModel }: HomeViewProps) => {
       </Page>
 
       <CurvesContainer>
-        <CurvesSVG />
+        <CurvesSVG fill="#2d3134" />
       </CurvesContainer>
 
       <Page bgcolor='#2d3134'>
@@ -94,6 +96,20 @@ export const HomeView = ({ viewModel }: HomeViewProps) => {
             ))
           }
         </Projects>
+      </Page>
+
+      <CurvesContainer style={{ transform: 'rotate(180deg)' }} bottom={1}>
+        <CurvesSVG fill="#2d3134" />
+      </CurvesContainer>
+
+      <Page height={20}>
+        <EdgePagePhoto href='https://www.linkedin.com/in/guilhermerpereira/'>
+          <PhotoContainer title='edge-page-photo' url={MeImg} width={50} height={50} />
+        </EdgePagePhoto>
+        <FooterPhrase>
+          <h2>"Those who would give up essential Liberty, to purchase a little temporary Safety, deserve neither Liberty nor Safety."</h2>
+          <sub>Benjamin Franklin</sub>
+        </FooterPhrase>
       </Page>
     </>
   )

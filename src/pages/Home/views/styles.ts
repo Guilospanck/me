@@ -14,14 +14,18 @@ export const Page = styled.div<PageProps>`
   width: 100%;
   min-height: ${props => props.height ?? 100}%;
   background-color: ${props => props.bgcolor ?? CONTENT_BG_COLOR_ALMOST_BLACK};
+
+  position: relative;
 `
 
 type PhotoContainerProps = {
-  url: string
+  url: string,
+  width?: number,
+  height?: number
 }
 export const PhotoContainer = styled.div<PhotoContainerProps>`
-  width: 200px;
-  height: 200px;
+  width: ${props => props.width ?? 200}px;
+  height: ${props => props.height ?? 200}px;
   border: 2px solid ${TEXT_COLOR_0_7_WHITE};
   border-radius: 100px;
   background-image: url(${props => props.url});
@@ -31,8 +35,8 @@ export const PhotoContainer = styled.div<PhotoContainerProps>`
   overflow: hidden;
 
   @media(max-width: 270px) {
-    width: 150px;
-    height: 150px;
+    width: ${props => props.width/4 ?? 150}px;
+    height: ${props => props.height/4 ?? 150}px;
   }
 `
 
@@ -94,12 +98,14 @@ export const Email = styled.a`
     color: #FFF;
   }
 `
-
-export const CurvesContainer = styled.footer`
+type CurvesContainerProps = {
+  bottom?: number
+}
+export const CurvesContainer = styled.footer<CurvesContainerProps>`
   position: relative;
   width: 100%;
   overflow: hidden;
-  bottom: -1vh;
+  bottom: ${props => props.bottom ?? -1}vh;
 `
 
 // page 2
@@ -110,8 +116,17 @@ export const Projects = styled.section`
   justify-content: center;
   align-items: center;
   gap: 1%;
+  width: 100%;  
 
   margin-top: 5%;
+
+  @media(min-width: 1000px) {
+    width: 80%;
+  }
+
+  @media(min-width: 1640px) {
+    width: 60%;
+  }
 `
 
 type ProjectCardProps = {
@@ -149,5 +164,27 @@ export const ProjectCard = styled.a<ProjectCardProps>`
     max-height: 100px;
     word-break: break-word;
     overflow: auto;
+  }
+`
+
+// page 3
+export const FooterPhrase = styled.footer`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  padding: 0 10%;
+`
+
+export const EdgePagePhoto = styled.a`
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+
+  cursor: pointer;
+  transition: all 200ms ease-in;
+
+  &:hover {
+    transform: rotate(360deg);
   }
 `

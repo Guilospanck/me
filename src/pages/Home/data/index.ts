@@ -63,18 +63,18 @@ export const PROJECTS = (): Projects[] => ([
     type: ProjectType.GOLANG_PKG,
     content: 'Simple mock for gocqlx',
     url: 'https://github.com/Guilospanck/gocqlxmock'
+  },  
+  {
+    title: 'Rust Bitcoin',
+    type: ProjectType.APP,
+    content: 'Bitcoin protocol implementation in Rust.',
+    url: 'https://github.com/Guilospanck/rust-bitcoin'
   },
   {
     title: 'Dota2 Discord Bot',
     type: ProjectType.BOT,
     content: 'Dota 2 Counters is a Discord bot that will tell you which are the top five (5) heroes that counter the desired one.',
     url: 'https://top.gg/bot/835946840561156096'
-  },
-  {
-    title: 'Rust Bitcoin',
-    type: ProjectType.APP,
-    content: 'Bitcoin protocol implementation in Rust.',
-    url: 'https://github.com/Guilospanck/rust-bitcoin'
   },
   {
     title: 'ScyllaDB and Go',
