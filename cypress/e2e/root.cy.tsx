@@ -25,7 +25,7 @@ export const test = () => {
   cy.findByTitle(/title\-name\-container/i).should('exist')
   cy.findByTitle(/email\-container/i).should('exist')
 
-  const NUMBER_OF_LINKS = 5
+  const NUMBER_OF_LINKS = 15
   cy.findAllByRole('link').then($links => {
     expect($links.length).to.be.eq(NUMBER_OF_LINKS)
   })
