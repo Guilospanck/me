@@ -1,21 +1,10 @@
 import styled from 'styled-components'
 
-import { CONTENT_BG_COLOR_ALMOST_BLACK, TEXT_COLOR_0_7_WHITE } from '~/globals'
-
-export const Container = styled.div`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
-  background-color: ${CONTENT_BG_COLOR_ALMOST_BLACK};
-  color: ${TEXT_COLOR_0_7_WHITE};
-
-`
+import { BREADCUMB_BG_COLOR, CONTENT_BG_COLOR_ALMOST_BLACK, TEXT_COLOR_0_7_WHITE } from '~/globals'
 
 type PageProps = {
   bgcolor?: string,
-  height?: number
+  height?: number,
 }
 export const Page = styled.div<PageProps>`
   display: flex;
@@ -23,7 +12,7 @@ export const Page = styled.div<PageProps>`
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: ${props => props.height ?? 100}vh;
+  min-height: ${props => props.height ?? 100}%;
   background-color: ${props => props.bgcolor ?? CONTENT_BG_COLOR_ALMOST_BLACK};
 `
 
@@ -111,4 +100,54 @@ export const CurvesContainer = styled.footer`
   width: 100%;
   overflow: hidden;
   bottom: -1vh;
+`
+
+// page 2
+export const Projects = styled.section`
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1%;
+
+  margin-top: 5%;
+`
+
+type ProjectCardProps = {
+  bgColor?: string
+}
+export const ProjectCard = styled.a<ProjectCardProps>`
+  width: 250px;
+  height: 220px;
+  border-radius: 20px;
+
+  margin-bottom: 1%;
+  color: ${TEXT_COLOR_0_7_WHITE};  
+  padding: 15px;
+  cursor: pointer;
+  text-decoration: none;
+
+  background: linear-gradient(135deg,
+    ${props => props.bgColor ?? CONTENT_BG_COLOR_ALMOST_BLACK} 0px,
+    ${BREADCUMB_BG_COLOR} 100%);
+
+  &:hover {
+    transform: scale(1.05);
+  }
+
+  & > #title {
+    font-size: 20px;
+  }
+
+  & > #subtitle {
+    margin-bottom: 15px;
+  }
+
+  & > #content {
+    width: 100%;
+    max-height: 100px;
+    word-break: break-word;
+    overflow: auto;
+  }
 `

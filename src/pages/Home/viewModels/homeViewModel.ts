@@ -1,9 +1,11 @@
 import { useState } from 'react'
-import { BadgeInfo, BadgeType, BADGE_INFO, DEFAULT_COLOR, HOVER_COLOR, UseHomeViewModelReturnType } from '../types'
+import { BADGE_INFO, PROJECTS } from '../data'
+import { BadgeInfo, BadgeType, DEFAULT_COLOR, HOVER_COLOR, Projects, UseHomeViewModelReturnType } from '../types'
 
 export const useHomeViewModel = (): UseHomeViewModelReturnType => {
   /** States */
   const [badgeInfo, setBadgeInfo] = useState<BadgeInfo>(BADGE_INFO())
+  const [projectsData, _setProjectsData] = useState<Projects[]>(PROJECTS())
 
   const onMouseEnterBadge = (badgeType: BadgeType) => {
     const badgeCopy = { ...badgeInfo }
@@ -20,6 +22,7 @@ export const useHomeViewModel = (): UseHomeViewModelReturnType => {
   return {
     onMouseEnterBadge,
     onMouseLeaveBadge,
-    badgeInfo
+    badgeInfo,
+    projectsData
   }
 }

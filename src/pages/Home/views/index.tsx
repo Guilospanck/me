@@ -1,9 +1,8 @@
 import React, { useMemo } from 'react'
 import Typical from 'react-typical'
-import { HomeViewProps, BadgeType, BadgeInfo } from '../types'
+import { HomeViewProps, BadgeType, BadgeInfo, ProjectSubtitle, ProjectColor } from '../types'
 
 import {
-  Container,
   Page,
   PhotoContainer,
   Title,
@@ -12,7 +11,9 @@ import {
   Email,
   CurvesContainer,
   Badges,
-  BadgeContainer
+  BadgeContainer,
+  Projects,
+  ProjectCard
 } from './styles'
 import MeImg from '../../../assets/images/me.jpg'
 
@@ -62,40 +63,38 @@ const GetBadge = (badge: BadgeType, onMouseEnterBadge: (badgeType: BadgeType) =>
 export const HomeView = ({ viewModel }: HomeViewProps) => {
   return (
     <>
-      <Container title='container'>
-        <Page height={80}>
-          <PhotoContainer title='photo-container' url={MeImg} />
-          <Title title='title-name-container'>Guilherme Rodrigues</Title>
-          <GetSubtitleMemoized />
-          <Badges>
-            {
-              Object.values(BadgeType).map((badge) => GetBadge(badge as BadgeType, viewModel.onMouseEnterBadge, viewModel.onMouseLeaveBadge, viewModel.badgeInfo))
-            }
-          </Badges>
-          <EmailContainer title='email-container'>
-            <Email href="mailto:guilospanck@protonmail.com" target={'_blank'}>guilospanck@protonmail.com</Email>
-          </EmailContainer>
-        </Page>
+      <Page height={80}>
+        <PhotoContainer title='photo-container' url={MeImg} />
+        <Title title='title-name-container'>Guilherme Rodrigues</Title>
+        <GetSubtitleMemoized />
+        <Badges>
+          {
+            Object.values(BadgeType).map((badge) => GetBadge(badge as BadgeType, viewModel.onMouseEnterBadge, viewModel.onMouseLeaveBadge, viewModel.badgeInfo))
+          }
+        </Badges>
+        <EmailContainer title='email-container'>
+          <Email href="mailto:guilospanck@protonmail.com" target={'_blank'}>guilospanck@protonmail.com</Email>
+        </EmailContainer>
+      </Page>
 
-        <CurvesContainer>
-          <CurvesSVG />
-        </CurvesContainer>
+      <CurvesContainer>
+        <CurvesSVG />
+      </CurvesContainer>
 
-        <Page bgcolor='#2d3134'>
-          <PhotoContainer title='photo-container' url={MeImg} />
-          <Title title='title-name-container'>Guilherme Rodrigues</Title>
-          <GetSubtitleMemoized />
-          <Badges>
-            {
-              Object.values(BadgeType).map((badge) => GetBadge(badge as BadgeType, viewModel.onMouseEnterBadge, viewModel.onMouseLeaveBadge, viewModel.badgeInfo))
-            }
-          </Badges>
-          <EmailContainer title='email-container'>
-            <Email href="mailto:guilospanck@protonmail.com" target={'_blank'}>guilospanck@protonmail.com</Email>
-          </EmailContainer>
-        </Page>
-
-      </Container>
+      <Page bgcolor='#2d3134'>
+        <Title>Projects</Title>
+        <Projects>
+          {
+            viewModel.projectsData.map(project => (
+              <ProjectCard key={project.url} href={project.url} bgColor={ProjectColor[project.type]}>
+                <div id='title'>{project.title}</div>
+                <div id='subtitle'>{ProjectSubtitle[project.type]}</div>
+                <div id='content'>{project.content}</div>
+              </ProjectCard>
+            ))
+          }
+        </Projects>
+      </Page>
     </>
   )
 }
