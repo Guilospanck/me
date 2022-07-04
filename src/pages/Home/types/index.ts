@@ -2,7 +2,8 @@
 export type UseHomeViewModelReturnType = {
   onMouseEnterBadge: (badgeType: BadgeType) => void,
   onMouseLeaveBadge: (badgeType: BadgeType) => void,
-  badgeInfo: BadgeInfo
+  badgeInfo: BadgeInfo,
+  projectsData: Projects[]
 }
 
 export type HomeViewProps = {
@@ -26,29 +27,30 @@ export type BadgeInfo = {
   }
 }
 
-export const BADGE_INFO = (): BadgeInfo => ({
-  [BadgeType.GITHUB]: {
-    src: (color: string) => `https://img.shields.io/badge/GitHub-100000?color=%23${color}&style=for-the-badge&logo=github&logoColor=hsla(0,0%,100%,0.7)&labelColor=%${color}`,
-    href: 'https://github.com/Guilospanck',
-    color: DEFAULT_COLOR,
-    title: 'GitHub'
-  },
-  [BadgeType.TWITTER]: {
-    src: (color: string) => `https://img.shields.io/badge/Twitter-1DA1F2?color=%23${color}&style=for-the-badge&logo=twitter&logoColor=hsla(0,0%,100%,0.7)&labelColor=%${color}`,
-    href: 'https://twitter.com/Guilospanck',
-    color: DEFAULT_COLOR,
-    title: 'Twitter'
-  },
-  [BadgeType.LINKEDIN]: {
-    src: (color: string) => `https://img.shields.io/badge/LinkedIn-0077B5?color=%23${color}&style=for-the-badge&logo=linkedin&logoColor=hsla(0,0%,100%,0.7)&labelColor=%${color}`,
-    href: 'https://www.linkedin.com/in/guilhermerpereira/',
-    color: DEFAULT_COLOR,
-    title: 'LinkedIn'
-  },
-  [BadgeType.MEDIUM]: {
-    src: (color: string) => `https://img.shields.io/badge/Medium-12100E?color=%23${color}&style=for-the-badge&logo=medium&logoColor=hsla(0,0%,100%,0.7)&labelColor=%${color}`,
-    href: 'https://medium.com/@guilospanck',
-    color: DEFAULT_COLOR,
-    title: 'Medium'
-  }
-})
+export enum ProjectType {
+  WEBSITE, GOLANG_PKG, SCRAPPER, BOT,
+  APP,
+}
+
+export const ProjectColor = {
+  [ProjectType.APP]: '#1D2226',
+  [ProjectType.BOT]: '#F5CB5C',
+  [ProjectType.GOLANG_PKG]: '#FF01FB',
+  [ProjectType.SCRAPPER]: '#E94F37',
+  [ProjectType.WEBSITE]: '#02A9EA',
+}
+
+export const ProjectSubtitle = {
+  [ProjectType.APP]: 'app',
+  [ProjectType.GOLANG_PKG]: 'golang package',
+  [ProjectType.BOT]: 'bot',
+  [ProjectType.SCRAPPER]: 'webscrapper',
+  [ProjectType.WEBSITE]: 'website',
+}
+
+export type Projects = {
+  title: string,
+  type: ProjectType,
+  content: string,
+  url: string
+}

@@ -4,7 +4,7 @@ module.exports = {
   entry: path.join(__dirname, 'src', 'index.tsx'),
   output: {
     path: path.resolve(__dirname, 'build'),
-    publicPath: '/',
+    // publicPath: '/',
     // main bundle
     filename: '[name].[contenthash].js',
     // vendor bundle

@@ -1,9 +1,9 @@
 import React, { useMemo } from 'react'
 import Typical from 'react-typical'
-import { HomeViewProps, BadgeType, BadgeInfo } from '../types'
+import { HomeViewProps, BadgeType, BadgeInfo, ProjectSubtitle, ProjectColor } from '../types'
 
 import {
-  Container,
+  Page,
   PhotoContainer,
   Title,
   Subtitle,
@@ -11,7 +11,11 @@ import {
   Email,
   CurvesContainer,
   Badges,
-  BadgeContainer
+  BadgeContainer,
+  Projects,
+  ProjectCard,
+  FooterPhrase,
+  EdgePagePhoto
 } from './styles'
 import MeImg from '../../../assets/images/me.jpg'
 
@@ -60,21 +64,53 @@ const GetBadge = (badge: BadgeType, onMouseEnterBadge: (badgeType: BadgeType) =>
 
 export const HomeView = ({ viewModel }: HomeViewProps) => {
   return (
-    <Container title='container'>
-      <PhotoContainer title='photo-container' url={MeImg} />
-      <Title title='title-name-container'>Guilherme Rodrigues</Title>
-      <GetSubtitleMemoized />
-      <Badges>
-        {
-          Object.values(BadgeType).map((badge) => GetBadge(badge as BadgeType, viewModel.onMouseEnterBadge, viewModel.onMouseLeaveBadge, viewModel.badgeInfo))
-        }
-      </Badges>
-      <EmailContainer title='email-container'>
-        <Email href="mailto:guilospanck@protonmail.com" target={'_blank'}>guilospanck@protonmail.com</Email>
-      </EmailContainer>
+    <>
+      <Page height={80}>
+        <PhotoContainer title='photo-container' url={MeImg} />
+        <Title title='title-name-container'>Guilherme Rodrigues</Title>
+        <GetSubtitleMemoized />
+        <Badges>
+          {
+            Object.values(BadgeType).map((badge) => GetBadge(badge as BadgeType, viewModel.onMouseEnterBadge, viewModel.onMouseLeaveBadge, viewModel.badgeInfo))
+          }
+        </Badges>
+        <EmailContainer title='email-container'>
+          <Email href="mailto:guilospanck@protonmail.com" target={'_blank'}>guilospanck@protonmail.com</Email>
+        </EmailContainer>
+      </Page>
+
       <CurvesContainer>
-        <CurvesSVG />
+        <CurvesSVG fill="#2d3134" />
       </CurvesContainer>
-    </Container>
+
+      <Page bgcolor='#2d3134'>
+        <Title>Projects</Title>
+        <Projects>
+          {
+            viewModel.projectsData.map(project => (
+              <ProjectCard key={project.url} href={project.url} bgColor={ProjectColor[project.type]}>
+                <div id='title'>{project.title}</div>
+                <div id='subtitle'>{ProjectSubtitle[project.type]}</div>
+                <div id='content'>{project.content}</div>
+              </ProjectCard>
+            ))
+          }
+        </Projects>
+      </Page>
+
+      <CurvesContainer style={{ transform: 'rotate(180deg)' }} bottom={1}>
+        <CurvesSVG fill="#2d3134" />
+      </CurvesContainer>
+
+      <Page height={20}>
+        <EdgePagePhoto href='https://www.linkedin.com/in/guilhermerpereira/'>
+          <PhotoContainer title='edge-page-photo' url={MeImg} width={50} height={50} />
+        </EdgePagePhoto>
+        <FooterPhrase>
+          <h2>"Those who would give up essential Liberty, to purchase a little temporary Safety, deserve neither Liberty nor Safety."</h2>
+          <sub>Benjamin Franklin</sub>
+        </FooterPhrase>
+      </Page>
+    </>
   )
 }
