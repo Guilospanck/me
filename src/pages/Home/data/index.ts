@@ -1,4 +1,4 @@
-import { BadgeInfo, BadgeType, DEFAULT_COLOR, Projects, ProjectType } from "../types";
+import { BadgeInfo, BadgeType, DEFAULT_COLOR, Projects, ProjectType } from '../types'
 
 export const BADGE_INFO = (): BadgeInfo => ({
   [BadgeType.GITHUB]: {
@@ -63,7 +63,7 @@ export const PROJECTS = (): Projects[] => ([
     type: ProjectType.GOLANG_PKG,
     content: 'Simple mock for gocqlx',
     url: 'https://github.com/Guilospanck/gocqlxmock'
-  },  
+  },
   {
     title: 'Rust Bitcoin',
     type: ProjectType.APP,

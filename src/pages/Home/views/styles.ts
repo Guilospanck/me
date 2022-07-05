@@ -35,8 +35,8 @@ export const PhotoContainer = styled.div<PhotoContainerProps>`
   overflow: hidden;
 
   @media(max-width: 270px) {
-    width: ${props => props.width/4 ?? 150}px;
-    height: ${props => props.height/4 ?? 150}px;
+    width: ${props => props.width / 4 ?? 150}px;
+    height: ${props => props.height / 4 ?? 150}px;
   }
 `
 

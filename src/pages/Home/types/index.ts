@@ -35,9 +35,9 @@ export enum ProjectType {
 export const ProjectColor = {
   [ProjectType.APP]: '#1D2226',
   [ProjectType.BOT]: '#F5CB5C',
-  [ProjectType.GOLANG_PKG]: '#FF01FB',
+  [ProjectType.GOLANG_PKG]: '#7D80DA',
   [ProjectType.SCRAPPER]: '#E94F37',
-  [ProjectType.WEBSITE]: '#02A9EA',
+  [ProjectType.WEBSITE]: '#02A9EA'
 }
 
 export const ProjectSubtitle = {
@@ -45,7 +45,7 @@ export const ProjectSubtitle = {
   [ProjectType.GOLANG_PKG]: 'golang package',
   [ProjectType.BOT]: 'bot',
   [ProjectType.SCRAPPER]: 'webscrapper',
-  [ProjectType.WEBSITE]: 'website',
+  [ProjectType.WEBSITE]: 'website'
 }
 
 export type Projects = {
