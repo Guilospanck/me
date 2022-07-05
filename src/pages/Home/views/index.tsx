@@ -88,7 +88,7 @@ export const HomeView = ({ viewModel }: HomeViewProps) => {
         <Projects>
           {
             viewModel.projectsData.map(project => (
-              <ProjectCard key={project.url} href={project.url} bgColor={ProjectColor[project.type]}>
+              <ProjectCard key={project.url} href={project.url} bgColor={ProjectColor[project.type]} target='_blank'>
                 <div id='title'>{project.title}</div>
                 <div id='subtitle'>{ProjectSubtitle[project.type]}</div>
                 <div id='content'>{project.content}</div>
@@ -107,7 +107,7 @@ export const HomeView = ({ viewModel }: HomeViewProps) => {
           <PhotoContainer title='edge-page-photo' url={MeImg} width={50} height={50} />
         </EdgePagePhoto>
         <FooterPhrase>
-          <h2>"Those who would give up essential Liberty, to purchase a little temporary Safety, deserve neither Liberty nor Safety."</h2>
+          <h2>&quot;Those who would give up essential Liberty, to purchase a little temporary Safety, deserve neither Liberty nor Safety.&quot;</h2>
           <sub>Benjamin Franklin</sub>
         </FooterPhrase>
       </Page>

@@ -5,7 +5,7 @@ import { BadgeInfo, BadgeType, DEFAULT_COLOR, HOVER_COLOR, Projects, UseHomeView
 export const useHomeViewModel = (): UseHomeViewModelReturnType => {
   /** States */
   const [badgeInfo, setBadgeInfo] = useState<BadgeInfo>(BADGE_INFO())
-  const [projectsData, _setProjectsData] = useState<Projects[]>(PROJECTS())
+  const [projectsData] = useState<Projects[]>(PROJECTS())
 
   const onMouseEnterBadge = (badgeType: BadgeType) => {
     const badgeCopy = { ...badgeInfo }
