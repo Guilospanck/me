@@ -11,14 +11,12 @@ export const LOCALHOST = 'http://localhost:3000/'
 // export const LOCALHOST = 'https://localhost:3000/'
 
 describe('test', () => {
-
   it('should go to / path and check if "hello 1" string is present', () => {
     test()
   })
-
 })
 
-export const test = () => {  
+export const test = () => {
   cy.visit(`${LOCALHOST}`)
 
   cy.findByTitle(/photo\-container/i).should('exist')
