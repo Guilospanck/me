@@ -18,35 +18,35 @@ export enum BadgeType {
   GITHUB, TWITTER, LINKEDIN, MEDIUM
 }
 
-export type BadgeInfo = {
-  [badgeType in BadgeType]: {
-    src: (color: string) => string,
-    href: string,
-    color: string,
-    title: string
-  }
+type BadgeInfoValue = {
+  src: (color: string) => string,
+  href: string,
+  color: string,
+  title: string
 }
+
+export type BadgeInfo = Record<BadgeType, BadgeInfoValue>
 
 export enum ProjectType {
   WEBSITE, GOLANG_PKG, SCRAPPER, BOT,
   APP,
 }
 
-export const ProjectColor = {
+export const ProjectColor: Record<ProjectType, string> = {
   [ProjectType.APP]: '#1D2226',
   [ProjectType.BOT]: '#F5CB5C',
   [ProjectType.GOLANG_PKG]: '#7D80DA',
   [ProjectType.SCRAPPER]: '#E94F37',
   [ProjectType.WEBSITE]: '#02A9EA'
-}
+} as const
 
-export const ProjectSubtitle = {
+export const ProjectSubtitle: Record<ProjectType, string> = {
   [ProjectType.APP]: 'app',
   [ProjectType.GOLANG_PKG]: 'golang package',
   [ProjectType.BOT]: 'bot',
   [ProjectType.SCRAPPER]: 'webscrapper',
   [ProjectType.WEBSITE]: 'website'
-}
+} as const
 
 export type Projects = {
   title: string,
