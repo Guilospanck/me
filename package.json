@@ -5,10 +5,10 @@
   "repository": "https://github.com/Guilospanck/guilospanck.github.io.git",
   "author": "Guilherme Rodrigues <guilospanck@protonmail.com>",
   "scripts": {
-    "start": "NODE_ENV=production cd build/ && npx http-server --port 3000 -a localhost --proxy http://localhost:3000? .",
-    "start:dev": "NODE_ENV=development webpack serve --config webpack.dev.js",
+    "start": "cd build/ && npx http-server --port 3000 -a localhost --proxy http://localhost:3000? .",
+    "start:dev": "webpack serve --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js",
-    "predeploy": "npm run build",
+    "predeploy": "webpack --config webpack.prod.js --env envfile=ghpages",
     "deploy": "gh-pages -d build",
     "test": "jest --passWithNoTests --no-cache --runInBand",
     "test:watch": "yarn test -- --watch",
