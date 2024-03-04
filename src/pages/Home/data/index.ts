@@ -29,6 +29,12 @@ export const BADGE_INFO = (): BadgeInfo => ({
 
 export const PROJECTS = (): Projects[] => ([
   {
+    title: 'Nostr',
+    type: ProjectType.APP,
+    content: 'Nostr protocol written in Rust.',
+    url: 'https://github.com/Guilospanck/nostr'
+  },
+  {
     title: 'NES Emulator Rust',
     type: ProjectType.APP,
     content: 'A NES emulator written in Rust.',

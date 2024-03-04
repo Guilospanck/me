@@ -67,7 +67,7 @@ export const HomeView = ({ viewModel }: HomeViewProps) => {
     <>
       <Page height={80}>
         <PhotoContainer title='photo-container' url={MeImg} />
-        <Title title='title-name-container'>Guilherme Rodrigues</Title>
+        <Title title='title-name-container'>Guilherme Pereira</Title>
         <GetSubtitleMemoized />
         <Badges>
           {
