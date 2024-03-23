@@ -30,27 +30,39 @@ export const BADGE_INFO = (): BadgeInfo => ({
 export const PROJECTS = (): Projects[] => ([
   {
     title: 'Nostr',
-    type: ProjectType.APP,
+    type: ProjectType.BITCOIN,
     content: 'Nostr protocol written in Rust.',
     url: 'https://github.com/Guilospanck/nostr'
   },
   {
-    title: 'NES Emulator Rust',
-    type: ProjectType.APP,
-    content: 'A NES emulator written in Rust.',
-    url: 'https://github.com/Guilospanck/nes-emulator-rust'
-  },
-  {
     title: 'Rust Bitcoin',
-    type: ProjectType.APP,
+    type: ProjectType.BITCOIN,
     content: 'Bitcoin protocol implementation in Rust.',
     url: 'https://github.com/Guilospanck/rust-bitcoin'
   },
   {
+    title: 'murray-rs',
+    type: ProjectType.BITCOIN,
+    content: 'This powerful library enables developers to quickly incorporate bitcoin data and interactions within their applications.',
+    url: 'https://github.com/Guilospanck/murray-rs'
+  },
+  {
     title: 'Schnorr',
-    type: ProjectType.APP,
+    type: ProjectType.BITCOIN,
     content: 'Example of how to sign and verify Schnorr signatures as of BIP340. Written in Rust.',
     url: 'https://github.com/Guilospanck/schnorr'
+  },
+  {
+    title: 'Macaroon',
+    type: ProjectType.BITCOIN,
+    content: 'Simple implementation of Macaroon for learning purposes.',
+    url: 'https://github.com/Guilospanck/macaroon'
+  },
+  {
+    title: 'BTC target, bits and difficulty',
+    type: ProjectType.BITCOIN,
+    content: 'nBits, Target and Difficulty of BTC protocol.',
+    url: 'https://github.com/Guilospanck/btc-target-bits-difficulty'
   },
   {
     title: 'Conway\'s Game of Life',
@@ -69,6 +81,12 @@ export const PROJECTS = (): Projects[] => ([
     type: ProjectType.WEBSITE,
     content: 'Web drawer like Gartic made with React using TypeScript.',
     url: 'https://github.com/Guilospanck/gartic-like-app/'
+  },
+  {
+    title: 'NES Emulator Rust',
+    type: ProjectType.APP,
+    content: 'A NES emulator written in Rust.',
+    url: 'https://github.com/Guilospanck/nes-emulator-rust'
   },
   {
     title: 'Medium Observability Stack',

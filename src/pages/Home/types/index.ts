@@ -29,7 +29,7 @@ export type BadgeInfo = Record<BadgeType, BadgeInfoValue>
 
 export enum ProjectType {
   WEBSITE, GOLANG_PKG, SCRAPPER, BOT,
-  APP,
+  APP, BITCOIN,
 }
 
 export const ProjectColor: Record<ProjectType, string> = {
@@ -37,7 +37,8 @@ export const ProjectColor: Record<ProjectType, string> = {
   [ProjectType.BOT]: '#F5CB5C',
   [ProjectType.GOLANG_PKG]: '#7D80DA',
   [ProjectType.SCRAPPER]: '#E94F37',
-  [ProjectType.WEBSITE]: '#02A9EA'
+  [ProjectType.WEBSITE]: '#02A9EA',
+  [ProjectType.BITCOIN]: '#f7931a'
 } as const
 
 export const ProjectSubtitle: Record<ProjectType, string> = {
@@ -45,7 +46,8 @@ export const ProjectSubtitle: Record<ProjectType, string> = {
   [ProjectType.GOLANG_PKG]: 'golang package',
   [ProjectType.BOT]: 'bot',
   [ProjectType.SCRAPPER]: 'webscrapper',
-  [ProjectType.WEBSITE]: 'website'
+  [ProjectType.WEBSITE]: 'website',
+  [ProjectType.BITCOIN]: 'btc related'
 } as const
 
 export type Projects = {
