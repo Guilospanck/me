@@ -90,6 +90,8 @@ export const EmailContainer = styled.section`
   height: 30px;
 `
 
+export const PersonalNotesContainer = styled(EmailContainer)``
+
 export const Email = styled.a`
   text-decoration: none;
   color: ${TEXT_COLOR_0_7_WHITE};
@@ -98,6 +100,8 @@ export const Email = styled.a`
     color: #fff;
   }
 `
+export const PersonalNotes = styled(Email)``
+
 type CurvesContainerProps = {
   bottom?: number
 }

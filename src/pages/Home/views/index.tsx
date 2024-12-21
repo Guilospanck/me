@@ -15,7 +15,9 @@ import {
   Projects,
   ProjectCard,
   FooterPhrase,
-  EdgePagePhoto
+  EdgePagePhoto,
+  PersonalNotesContainer,
+  PersonalNotes
 } from './styles'
 import MeImg from '../../../assets/images/me.jpg'
 
@@ -92,6 +94,11 @@ export const HomeView = ({ viewModel }: HomeViewProps) => {
             GetBadge(badge as BadgeType, viewModel.onMouseEnterBadge, viewModel.onMouseLeaveBadge, viewModel.badgeInfo)
           )}
         </Badges>
+        <PersonalNotesContainer title="personal-notes-container">
+          <PersonalNotes href="https://guilospanck.github.io/notes/" target={'_blank'}>
+            Personal notes
+          </PersonalNotes>
+        </PersonalNotesContainer>
         <EmailContainer title="email-container">
           <Email href="mailto:guilospanck@protonmail.com" target={'_blank'}>
             guilospanck@protonmail.com
