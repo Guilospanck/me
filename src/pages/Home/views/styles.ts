@@ -3,8 +3,8 @@ import styled from 'styled-components'
 import { BREADCUMB_BG_COLOR, CONTENT_BG_COLOR_ALMOST_BLACK, TEXT_COLOR_0_7_WHITE } from '~/globals'
 
 type PageProps = {
-  bgcolor?: string,
-  height?: number,
+  bgcolor?: string
+  height?: number
 }
 export const Page = styled.div<PageProps>`
   display: flex;
@@ -19,8 +19,8 @@ export const Page = styled.div<PageProps>`
 `
 
 type PhotoContainerProps = {
-  url: string,
-  width?: number,
+  url: string
+  width?: number
   height?: number
 }
 export const PhotoContainer = styled.div<PhotoContainerProps>`
@@ -34,7 +34,7 @@ export const PhotoContainer = styled.div<PhotoContainerProps>`
 
   overflow: hidden;
 
-  @media(max-width: 270px) {
+  @media (max-width: 270px) {
     width: ${props => props.width / 4 ?? 150}px;
     height: ${props => props.height / 4 ?? 150}px;
   }
@@ -45,7 +45,7 @@ export const Title = styled.header`
   font-size: xx-large;
 `
 
-export const Subtitle = styled.section`  
+export const Subtitle = styled.section`
   display: flex;
   align-items: center;
   height: 60px;
@@ -64,7 +64,7 @@ export const Badges = styled.section`
 
   overflow: hidden;
 
-  @media(max-height: 500px){
+  @media (max-height: 500px) {
     min-height: 70px;
   }
 `
@@ -72,11 +72,11 @@ export const Badges = styled.section`
 export const BadgeContainer = styled.img`
   width: 100px;
   border-radius: 5px;
-  height: 90%;  
+  height: 90%;
 `
 
 export const EmailContainer = styled.section`
-  display: flex;  
+  display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 
@@ -92,10 +92,10 @@ export const EmailContainer = styled.section`
 
 export const Email = styled.a`
   text-decoration: none;
-  color: ${TEXT_COLOR_0_7_WHITE};  
+  color: ${TEXT_COLOR_0_7_WHITE};
 
   &:hover {
-    color: #FFF;
+    color: #fff;
   }
 `
 type CurvesContainerProps = {
@@ -116,15 +116,15 @@ export const Projects = styled.section`
   justify-content: center;
   align-items: center;
   gap: 1%;
-  width: 100%;  
+  width: 100%;
 
   margin-top: 5%;
 
-  @media(min-width: 1000px) {
+  @media (min-width: 1000px) {
     width: 80%;
   }
 
-  @media(min-width: 1640px) {
+  @media (min-width: 1640px) {
     width: 60%;
   }
 `
@@ -138,14 +138,16 @@ export const ProjectCard = styled.a<ProjectCardProps>`
   border-radius: 20px;
 
   margin-bottom: 1%;
-  color: ${TEXT_COLOR_0_7_WHITE};  
+  color: ${TEXT_COLOR_0_7_WHITE};
   padding: 15px;
   cursor: pointer;
   text-decoration: none;
 
-  background: linear-gradient(135deg,
+  background: linear-gradient(
+    135deg,
     ${props => props.bgColor ?? CONTENT_BG_COLOR_ALMOST_BLACK} 0px,
-    ${BREADCUMB_BG_COLOR} 100%);
+    ${BREADCUMB_BG_COLOR} 100%
+  );
 
   &:hover {
     transform: scale(1.05);
