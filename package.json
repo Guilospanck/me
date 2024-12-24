@@ -9,7 +9,7 @@
     "start:dev": "webpack serve --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js",
     "predeploy": "webpack --config webpack.prod.js --env envfile=ghpages",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d build && echo '\n\n>>>>>>>>>>>>>>>>>> Update guilospanck.com with the build/ content >>>>>>>>>>>>>>>>>>\n\n\n'",
     "test": "jest --passWithNoTests --no-cache --runInBand",
     "test:watch": "yarn test -- --watch",
     "test:staged": "yarn test -- --findRelatedTests src/",
