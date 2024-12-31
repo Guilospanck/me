@@ -33,6 +33,12 @@ export const BADGE_INFO = (): BadgeInfo => ({
 
 export const PROJECTS = (): Projects[] => [
   {
+    title: 'FlashCards',
+    type: ProjectType.APP,
+    content: 'A simple and effective Flash Cards application.',
+    url: 'https://flashcards.guilospanck.com/'
+  },
+  {
     title: 'Nostr',
     type: ProjectType.BITCOIN,
     content: 'Nostr protocol written in Rust.',
