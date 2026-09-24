@@ -17,7 +17,9 @@ import {
   FooterPhrase,
   EdgePagePhoto,
   PersonalNotesContainer,
-  PersonalNotes
+  PersonalNotes,
+  QuoteDiaryContainer,
+  QuoteDiary
 } from './styles'
 import MeImg from '../../../assets/images/me.jpg'
 
@@ -99,6 +101,11 @@ export const HomeView = ({ viewModel }: HomeViewProps) => {
             Personal notes
           </PersonalNotes>
         </PersonalNotesContainer>
+        <QuoteDiaryContainer title="quote-diary-container">
+          <QuoteDiary href="https://guilospanck.github.io/quote-diary/" target={'_blank'}>
+            Quote diary
+          </QuoteDiary>
+        </QuoteDiaryContainer>
         <EmailContainer title="email-container">
           <Email href="mailto:guilospanck@protonmail.com" target={'_blank'}>
             guilospanck@protonmail.com

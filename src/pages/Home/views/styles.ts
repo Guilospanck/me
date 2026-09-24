@@ -91,6 +91,7 @@ export const EmailContainer = styled.section`
 `
 
 export const PersonalNotesContainer = styled(EmailContainer)``
+export const QuoteDiaryContainer = styled(EmailContainer)``
 
 export const Email = styled.a`
   text-decoration: none;
@@ -101,6 +102,7 @@ export const Email = styled.a`
   }
 `
 export const PersonalNotes = styled(Email)``
+export const QuoteDiary = styled(Email)``
 
 type CurvesContainerProps = {
   bottom?: number

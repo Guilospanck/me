@@ -18,12 +18,15 @@
 // eslint-disable-next-line no-unused-vars
 const webpackPreprocessor = require('@cypress/webpack-preprocessor')
 
+// Reuse the app's loaders and resolve config; the preprocessor sets its own entry/output
+const webpackOptions = { ...require('../../webpack.common.js'), mode: 'development' }
+delete webpackOptions.entry
+delete webpackOptions.output
+
 module.exports = (on) => {
   const options = {
-    // send in the options from your webpack.config.js, so it works the same
-    // as your app's code
-    webpackOptions: require('../../webpack.dev.js'),
-    watchOptions: {},
+    webpackOptions,
+    watchOptions: {}
   }
 
   on('file:preprocessor', webpackPreprocessor(options))
