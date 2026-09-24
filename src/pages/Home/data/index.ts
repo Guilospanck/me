@@ -39,59 +39,88 @@ export const PROJECTS = (): Projects[] => [
     url: 'https://flashcards.guilospanck.com/'
   },
   {
-    title: 'Nostr',
-    type: ProjectType.BITCOIN,
-    content: 'Nostr protocol written in Rust.',
-    url: 'https://github.com/Guilospanck/nostr'
+    title: 'Chronos',
+    type: ProjectType.APP,
+    content: 'Your friendly chronogram app.',
+    url: 'https://chronos.guilospanck.com/'
   },
   {
-    title: 'Rust Bitcoin',
-    type: ProjectType.BITCOIN,
-    content: 'Bitcoin protocol implementation in Rust.',
-    url: 'https://github.com/Guilospanck/rust-bitcoin'
+    title: 'modelgen',
+    type: ProjectType.AI,
+    content: 'Generate 3D models by describing them to your AI agent. Exports GLB and USDZ from plain YAML models.',
+    url: 'https://github.com/Guilospanck/modelgen'
   },
   {
-    title: 'murray-rs',
-    type: ProjectType.BITCOIN,
-    content:
-      'This powerful library enables developers to quickly incorporate bitcoin data and interactions within their applications.',
-    url: 'https://github.com/Guilospanck/murray-rs'
+    title: 'vm-claude',
+    type: ProjectType.TOOL,
+    content: 'Run Claude Code inside a microVM that only sees the current project.',
+    url: 'https://github.com/Guilospanck/vm-claude'
   },
   {
-    title: 'Schnorr',
-    type: ProjectType.BITCOIN,
-    content: 'Example of how to sign and verify Schnorr signatures as of BIP340. Written in Rust.',
-    url: 'https://github.com/Guilospanck/schnorr'
+    title: 'AI Usage Bar',
+    type: ProjectType.APP,
+    content: 'Native macOS menu-bar app showing your Claude and ChatGPT subscription usage side by side.',
+    url: 'https://github.com/Guilospanck/ai-usage-bar'
   },
   {
-    title: 'Macaroon',
-    type: ProjectType.BITCOIN,
-    content: 'Simple implementation of Macaroon for learning purposes.',
-    url: 'https://github.com/Guilospanck/macaroon'
+    title: 'MCP Odin',
+    type: ProjectType.AI,
+    content: 'Hand-crafted Model Context Protocol (2026-07-28) implementation in Odin.',
+    url: 'https://github.com/Guilospanck/mcp-odin'
   },
   {
-    title: 'BTC target, bits and difficulty',
-    type: ProjectType.BITCOIN,
-    content: 'nBits, Target and Difficulty of BTC protocol.',
-    url: 'https://github.com/Guilospanck/btc-target-bits-difficulty'
+    title: 'Odin Minecraft Clone',
+    type: ProjectType.APP,
+    content: 'Voxel sandbox written in pure Odin with OpenGL 4.1 and GLFW. No engine.',
+    url: 'https://github.com/Guilospanck/claude-minecraft-odin'
   },
   {
-    title: "Conway's Game of Life",
+    title: 'Quotebook',
     type: ProjectType.WEBSITE,
-    content: 'John Conway Game of Life React TypeScript implementation.',
-    url: 'https://guilospanck.github.io/Conway-Game-Of-Life-React/'
+    content: 'Turn a folder of markdown files into a minimal quotes website on GitHub Pages.',
+    url: 'https://guilospanck.github.io/quotebook/'
   },
   {
-    title: 'Discord Clone',
+    title: 'WebRTC Stats Analyzer',
     type: ProjectType.WEBSITE,
-    content: 'Frontend Discord Clone made with TypeScript and React',
-    url: 'https://guilospanck.github.io/discord-clone/'
+    content: 'Parse Chrome WebRTC stats exports and get a call quality diagnosis with charts.',
+    url: 'https://guilospanck.github.io/webrtc-stats-analyzer/'
   },
   {
-    title: 'Gartic Like App',
+    title: 'Notion to Diagram',
     type: ProjectType.WEBSITE,
-    content: 'Web drawer like Gartic made with React using TypeScript.',
-    url: 'https://github.com/Guilospanck/gartic-like-app/'
+    content: 'Transform Notion pages into interactive diagrams.',
+    url: 'https://guilospanck.github.io/notion-to-diagram/'
+  },
+  {
+    title: 'Galaxy WebGPU',
+    type: ProjectType.WEBSITE,
+    content: 'Your own customisable galaxy in the browser, rendered with WebGPU and tweakable in real time.',
+    url: 'https://guilospanck.github.io/galaxy-webgpu/'
+  },
+  {
+    title: 'PQC Chat',
+    type: ProjectType.APP,
+    content: 'TUI websocket chat using Post-Quantum Cryptography. Written in Go.',
+    url: 'https://github.com/Guilospanck/pqc'
+  },
+  {
+    title: 'workj',
+    type: ProjectType.TOOL,
+    content: 'Git worktrees in Zellij. Written in Zig.',
+    url: 'https://github.com/Guilospanck/workj'
+  },
+  {
+    title: 'RAGit',
+    type: ProjectType.AI,
+    content: 'Talk to your GitHub and GitLab repositories using RAG.',
+    url: 'https://github.com/Guilospanck/ragit'
+  },
+  {
+    title: 'Area 25.5',
+    type: ProjectType.APP,
+    content: 'Roguelike survival game built with Rust and the Bevy engine for the PirateJAM 15.',
+    url: 'https://guilospanck.itch.io/area25-5'
   },
   {
     title: 'NES Emulator Rust',
@@ -100,22 +129,46 @@ export const PROJECTS = (): Projects[] => [
     url: 'https://github.com/Guilospanck/nes-emulator-rust'
   },
   {
-    title: 'Area 25.5',
-    type: ProjectType.APP,
-    content: 'A simple Roguelike survival game built using rust and Bevy engine.',
-    url: 'https://github.com/Guilospanck/area-25-5'
+    title: 'Nostr',
+    type: ProjectType.BITCOIN,
+    content: 'Nostr protocol written in Rust.',
+    url: 'https://github.com/Guilospanck/nostr'
   },
   {
-    title: 'Medium Observability Stack',
-    type: ProjectType.APP,
-    content: 'Sample files and code configs for the Medium article.',
-    url: 'https://github.com/Guilospanck/medium-observability-stack'
+    title: 'murray-rs',
+    type: ProjectType.BITCOIN,
+    content: 'Rust library to quickly incorporate bitcoin data and interactions within your applications.',
+    url: 'https://github.com/Guilospanck/murray-rs'
+  },
+  {
+    title: 'cashu-rs',
+    type: ProjectType.BITCOIN,
+    content: 'Cashu ecash protocol (NUTs) implementation in Rust.',
+    url: 'https://github.com/Guilospanck/cashu-rs'
+  },
+  {
+    title: 'Rust Bitcoin',
+    type: ProjectType.BITCOIN,
+    content: 'Bitcoin protocol implementation in Rust.',
+    url: 'https://github.com/Guilospanck/rust-bitcoin'
+  },
+  {
+    title: 'Schnorr',
+    type: ProjectType.BITCOIN,
+    content: 'Example of how to sign and verify Schnorr signatures as of BIP340. Written in Rust.',
+    url: 'https://github.com/Guilospanck/schnorr'
   },
   {
     title: 'Stripe Go Integration',
     type: ProjectType.APP,
-    content: 'Sample files and code configs for the Medium article',
+    content: 'Straightforward Stripe integration using Go. Companion code for the Medium article.',
     url: 'https://github.com/Guilospanck/stripe-go-integration'
+  },
+  {
+    title: 'Medium Observability Stack',
+    type: ProjectType.APP,
+    content: 'Telemetry with OpenTelemetry, Prometheus and Jaeger. Companion code for the Medium article.',
+    url: 'https://github.com/Guilospanck/medium-observability-stack'
   },
   {
     title: 'ScyllaDB and Go',
@@ -132,20 +185,19 @@ export const PROJECTS = (): Projects[] => [
   {
     title: 'gocqlxmock',
     type: ProjectType.GOLANG_PKG,
-    content: 'Simple mock for gocqlx',
+    content: 'Simple mock for gocqlx.',
     url: 'https://github.com/Guilospanck/gocqlxmock'
   },
   {
-    title: 'Dota2 Discord Bot',
-    type: ProjectType.BOT,
-    content:
-      'Dota 2 Counters is a Discord bot that will tell you which are the top five (5) heroes that counter the desired one.',
-    url: 'https://top.gg/bot/835946840561156096'
+    title: "Conway's Game of Life",
+    type: ProjectType.WEBSITE,
+    content: 'John Conway Game of Life React TypeScript implementation.',
+    url: 'https://guilospanck.github.io/Conway-Game-Of-Life-React/'
   },
   {
-    title: 'Dota2 Counters',
-    type: ProjectType.SCRAPPER,
-    content: "A simple Python webscrapper to gather information of heroes' counters from Dotabuff.",
-    url: 'https://github.com/Guilospanck/dota2-counters'
+    title: 'Discord Clone',
+    type: ProjectType.WEBSITE,
+    content: 'Frontend Discord Clone made with TypeScript and React.',
+    url: 'https://guilospanck.github.io/discord-clone/'
   }
 ]
